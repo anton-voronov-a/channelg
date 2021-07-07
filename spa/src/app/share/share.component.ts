@@ -56,43 +56,43 @@ export class ShareComponent {
     {
       url: 'https://www.facebook.com/sharer.php?u=[postUrl]',
       name: 'Facebook',
-      description: 'Only the web address of the Greeked and blurred',
+      description: 'Web address only',
       imageUrl: null
     },
     {
       url: 'https://twitter.com/share?url=[postUrl]&text=[postTitle]',
       name: 'Twitter',
-      description: 'The web address and page title',
+      description: 'Web address and page title',
       imageUrl: null
     },//tested
     {
       url: 'https://pinterest.com/pin/create/bookmarklet/?media=[postImg]&url=[postUrl]&is_video=[isVideo]&description=[postTitle]',
       name: 'Pinterest',
-      description: 'The web address, image representation and page title',
-      imageUrl: 'https://anton-voronov-a.github.io/greeked/assets/social/preview-pinterest.png'
+      description: 'Web address, image and page title',
+      imageUrl: 'https://www.groupsrating.com/assets/social/preview-pinterest.png'
     }, // image= 1500/1000
     {
       url: 'https://www.linkedin.com/shareArticle?url=[postUrl]&title=[postTitle]',
       name: 'Linkedin',
-      description: 'The web address and page title',
+      description: 'Web address and page title',
       imageUrl: null,
     },// tested },
     {
       url: 'https://www.tumblr.com/share/link?url=[postUrl]&name=[postTitle]',
       name: 'Tumblr',
-      description: 'The web address and page title',
+      description: 'Web address and page title',
       imageUrl: null
     },// tested },
     {
       url: 'https://reddit.com/submit?url=[postUrl]&title=[postTitle]',
       name: 'Reddit',
-      description: 'The web address and page title',
+      description: 'Web address and page title',
       imageUrl: null
     },// tested
     {
       url: "https://telegram.me/share/url?url=[postUrl]&text=[postTitle]",
       name: 'Telegram',
-      description: 'The web address and page title',
+      description: 'Web address and page title',
       imageUrl: null
     }
   ];
