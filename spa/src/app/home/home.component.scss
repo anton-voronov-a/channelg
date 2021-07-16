@@ -21,14 +21,19 @@
   margin: 0;
   height: 2em;
   text-align: center;
+  background-image: linear-gradient( 90deg, white, #c5beef);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .yp-homepage-definition {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 28px;
   margin: 0;
   text-align: center;
+  font-family: Bad Script;
+  color: #dae4ff;
 }
 
 .yp-homepage-section {
@@ -78,8 +83,19 @@
 }
 
 .yp-homepage-store {
-  margin: 26px;
+  margin: 32px;
   min-width: 150px;
+  color: #190094;
+  background: linear-gradient( 90deg, #ffffff 0%, #e7e2ff 50%, #a697fb) no-repeat;
+  background-position-x: right;
+  -ms-background-size: 200%;
+  background-size: 200%;
+  transition: all 0.5s;
+}
+
+.yp-homepage-store:hover {
+  color: #000000;
+  background-position-x: left;
 }
 
 @media screen and (min-width:600px) {
