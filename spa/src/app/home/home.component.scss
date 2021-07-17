@@ -1,6 +1,7 @@
 :host {
   overflow-y: auto;
   text-size-adjust: none;
+  --cg-title-space: 32px;
 }
 
 .yp-homepage-header {
@@ -17,13 +18,14 @@
   font-family: "Kavoon";
   font-size: 30px;
   font-weight: normal;
-  line-height: 2em;
+  line-height: 1.2em;
   margin: 0;
-  height: 2em;
+  height: 1.2em;
   text-align: center;
   background-image: linear-gradient( 90deg, white, #c5beef);
   color: transparent;
   -webkit-background-clip: text;
+  margin-top: var(--cg-title-space);
 }
 
 .yp-homepage-definition {
@@ -73,6 +75,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: var(--cg-title-space);
 }
 
 .yp-homepage-stores {
@@ -83,7 +86,7 @@
 }
 
 .yp-homepage-store {
-  margin: 32px;
+  margin: var(--cg-title-space);
   min-width: 150px;
   color: #190094;
   background: linear-gradient( 90deg, #ffffff 0%, #e7e2ff 50%, #a697fb) no-repeat;
