@@ -40,7 +40,7 @@
 .yp-homepage-section {
   padding-top: 16px;
   flex: 1;
-  color: rgba(0, 0, 0, 0.70);
+  color: rgba(0, 0, 0, 0.90);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +48,7 @@
 
 .yp-homepage-section__content {
   max-width: 787px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.7em;
 }
@@ -58,12 +58,16 @@
   padding-inline-start: 16px;
 }
 
-.cg-question,
 .yp-homepage-capabily-title {
-  display: block;
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.cg-question {
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .yp-homepage-capabily-title {
@@ -99,7 +103,7 @@
   margin: calc(var(--cg-title-space) - var(--cg-stores-space));
   min-width: 150px;
   color: #380371;
-  background: linear-gradient( 90deg, #ffffff 0%, #f0e2ff 50%, #be97fb) no-repeat;
+  background: linear-gradient( 90deg, #ffffff 0%, #f6efff 50%, #ceafff) no-repeat;
   background-position-x: right;
   -ms-background-size: 200%;
   background-size: 200%;
