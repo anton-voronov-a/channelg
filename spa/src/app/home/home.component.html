@@ -9,10 +9,10 @@
     </h2>
     <div class="yp-homepage-stores">
       <!--<a mat-raised-button
-         href="https://microsoftedge.microsoft.com/addons/detail/greeked-and-blurred/jphkmcbolhaofalbmjcbgmgldkgdabhc"
-         target="_blank"
-         class="yp-homepage-store"
-         title="Chrome Web Store">Edge Add-ons</a>-->
+      href="https://microsoftedge.microsoft.com/addons/detail/greeked-and-blurred/jphkmcbolhaofalbmjcbgmgldkgdabhc"
+      target="_blank"
+      class="yp-homepage-store"
+      title="Chrome Web Store">Edge Add-ons</a>-->
       <a mat-flat-button
          href="https://chrome.google.com/webstore/detail/channel-groups-and-rating/hopcbmeplpekjenhhkiceeeaeoeoaona"
          target="_blank"
@@ -25,6 +25,12 @@
          class="yp-homepage-store"
          rel="noopener noreferrer"
          title="Firefox add-on">Firefox add-on</a>
+      <button mat-flat-button
+              class="yp-homepage-store"
+              (click)="help()"
+              title="How to use on Android">
+        Mobile devices
+      </button>
     </div>
   </div>
 </header>

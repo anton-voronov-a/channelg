@@ -38,6 +38,7 @@
 }
 
 .yp-homepage-section {
+  padding-bottom: 4em;
   padding-top: 16px;
   flex: 1;
   color: rgba(0, 0, 0, 0.90);
@@ -122,34 +123,4 @@
 }
 
 
-/*.cg-level-1 {
-  counter-increment: level-1;
-  counter-reset: level-2;
-}
 
-.cg-level-2 {
-  counter-increment: level-2;
-  counter-reset: level-3;
-}
-
-.cg-level-3 {
-  counter-increment: level-3;
-  counter-reset: level-4;
-}
-
-.cg-level-4 {
-  counter-increment: level-4;
-}
-
-
-.cg-level-2:before {
-  content: counter(level-2) ". ";
-}
-
-.cg-level-3:before {
-  content: counter(level-2) "." counter(level-3) ". ";
-}
-
-.cg-level-4:before {
-  content: counter(level-2) "." counter(level-3) "." counter(level-4) ". ";
-}*/
