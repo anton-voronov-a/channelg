@@ -17,8 +17,8 @@ export class HelpDialogComponent implements OnInit {
     ];
   }
   private firefox: BrowserViewModel = new BrowserViewModel('Firefox Nightly browser (stable)');
-  private kiwi: BrowserViewModel = new BrowserViewModel('Kiwi browser (simple)');
-  private yandex: BrowserViewModel = new BrowserViewModel('Yandex browser (stable, simple and recommended)');
+  private kiwi: BrowserViewModel = new BrowserViewModel('Kiwi Browser (easy to configure)');
+  private yandex: BrowserViewModel = new BrowserViewModel('Yandex browser (easy to set up, stable and recommended)');
 
   public get isYandex(): boolean {
     return this.selectedBrowser === this.yandex;
