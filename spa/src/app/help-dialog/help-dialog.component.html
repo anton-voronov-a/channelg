@@ -8,12 +8,14 @@
     </p>
     <mat-radio-group [(ngModel)]="selectedBrowser"
                      class="cg-help-browser-radios">
-
-      <mat-radio-button *ngFor="let browser of browsers"
-                        [value]="browser"
-                        class="cg-help-browser-radio">
-        {{browser.name}}
-      </mat-radio-button>
+      <ng-container *ngFor="let browser of browsers">
+        <mat-radio-button [value]="browser"
+                          class="cg-help-browser-radio">
+          <span class="cg-help-browser-radio__text">{{browser.name}}</span>
+         
+        </mat-radio-button>
+        <span class="mat-hint cg-help-browser-hint">{{browser.hint}}</span>
+      </ng-container>
     </mat-radio-group>
 
     <p class="cg-level-1">Browser installation and configuration</p>
@@ -119,5 +121,7 @@
 <div mat-dialog-actions>
   <button mat-button
           mat-dialog-close
-          cdkFocusInitial>Close</button>
+          cdkFocusInitial>
+    Close
+  </button>
 </div>
