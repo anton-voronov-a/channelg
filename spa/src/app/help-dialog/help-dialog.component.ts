@@ -12,7 +12,7 @@ export class HelpDialogComponent implements OnInit {
     this.selectedBrowser = this.yandex;
     this.browsers = [
       this.yandex,
-      this.kiwi,
+      //this.kiwi,
       this.firefox
     ];
   }
