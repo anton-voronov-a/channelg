@@ -1,8 +1,8 @@
-
 .cg-help-content {
   max-width: 600px;
   border: solid rgb(0 0 0 / 9%);
   border-width: 1px 0;
+  max-height: min( calc(100vh - 142px), 65vh)
 }
 
 .cg-help-content-inner {

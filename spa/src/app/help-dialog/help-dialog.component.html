@@ -12,7 +12,7 @@
         <mat-radio-button [value]="browser"
                           class="cg-help-browser-radio">
           <span class="cg-help-browser-radio__text">{{browser.name}}</span>
-         
+
         </mat-radio-button>
         <span class="mat-hint cg-help-browser-hint">{{browser.hint}}</span>
       </ng-container>
@@ -24,16 +24,17 @@
       <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser"
          target="_blank"
          rel="noopener nofollow"
-         title="Browser link">link</a>
-      , install and open.
+         title="Browser link">link</a>.
     </p>
     <p class="cg-level-2" *ngIf="isYandex">
       Download from the
       <a href="https://play.google.com/store/apps/details?id=com.yandex.browser"
          target="_blank"
          rel="noopener nofollow"
-         title="Browser link">link</a>
-      , install and open.
+         title="Browser link">link</a>.
+    </p>
+    <p class="cg-level-2" *ngIf="isYandex|| isKiwi">
+      Install and open.
     </p>
     <ng-container *ngIf="isFirefox">
       <p class="cg-level-2">
@@ -65,12 +66,7 @@
            rel="noopener noreferrer"
            title="Extension link">link</a>.
       </p>
-      <p class="cg-level-2">
-        Tap on the three dot menu.
-      </p>
-      <p class="cg-level-2" *ngIf="isKiwi">Check desktop site.</p>
-      <p class="cg-level-2" *ngIf="isYandex">Tap on the Desktop version.</p>
-      <p class="cg-level-2">Close the menu and add the extension with the Add to Chrome button.</p>
+      <p class="cg-level-2">Tap on Add to Chrome.</p>
     </ng-container>
     <ng-container *ngIf="isFirefox">
       <p class="cg-level-2">
