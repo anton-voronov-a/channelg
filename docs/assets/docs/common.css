@@ -58,15 +58,6 @@ a {
     color: rgba(0, 0, 0, 0.90);
   }
 
-@media screen and (min-width:1200px) {
-  .yp-section {
-    text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-  }
-}
 
 footer {
   display: flex;
