@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Terms of Service (Channel groups and rating)</title>
+  <meta name="viewport" content="width=320, initial-scale=1, minimum-scale=0.1, maximum-scale=10">
+  <link rel="icon" type="image/x-icon" href="../../icon-128.png">
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="../docs.css">
+  <!--Kaspersky extension warn Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8BKSHJXJE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-T8BKSHJXJE');
+  </script>
+</head>
+<body class="yp-docs-body">
+  <main class="yp-main-docs">
+    <article class="yp-content yp-section yp-navigation-content">
+      <h1 class="yp-title">User interface description (Channel groups and rating)</h1>
+
+      <h2>Subscription section</h2>
+
+      <h3>Dashboard</h3>
+      <p>
+        In this section, a dashboard is embedded for each video section.
+        The panel contains counters, a filter and a button to display an additional panel.
+      </p>
+      <p>
+        Counters include information:
+        <ol>
+          <li>About the selected items;</li>
+          <li>About found selected channels in all videos on the page;</li>
+        </ol>
+
+        The filter information displays the minimum rating and a list of group names.
+        In order to see the panel, you must click on the show panel button.
+      </p>
+
+      <h3>Panel</h3>
+      <p>
+        On the subscription page, the panel contains a filter section and provides the ability to filter videos. Also, in the absence of created categories, the panel contains instructions for grouping YouTube subscriptions using the YouTube subscription manager.
+      </p>
+      <h3>Filter</h3>
+      <p>
+        The selected filter elements must be specified through the group tree or through the minimum rating.
+      </p>
+      <p>
+        A selection in the parent tree element results in all child elements being selected. This behavior is used only for filtering, and when editing in other parts of the system, this does not happen.
+        The Selected button is located on the same panel and opens the modal window of the selected channels.
+      </p>
+      <h3>Modal window of selected channels</h3>
+      <p>
+        The window contains a table with the elements selected in the filter.
+        Table fields
+        <ol>
+          <li>Channel name. Includes links to channels.</li>
+          <li>Groups. Number of groups.</li>
+          <li>Rating.</li>
+          <li>Found. Displays the fact that at least one video from the channel has been detected on the page.</li>
+        </ol>
+
+        On the Manage page (YouTube subscription manager), the panel provides additional bulk editing functionality using the bulk operations editor.
+      </p>
+
+      <h3>Bulk operations editor</h3>
+      <p>
+        The editor is implemented in the form of a button that is responsible for selecting a group, a button for canceling changes and a button for saving changes. The editor also displays the selected group, which provides the ability to add and remove the selected group for subscription. Adding and removing is done in one click.
+      </p>
+      <p>
+        Group selection is implemented using the selection window.
+        The main function of all changes on the YouTube subscription manager page is the bulk editing of categories for subscriptions.
+      </p>
+      <h3>Bulk editing</h3>
+      <p>
+        Bulk editing is implemented using the above-described bulk operations editor and buttons embedded on the YouTube subscription manager page.
+
+        Embedded buttons
+        <ol>
+          <li>Button for adding to the selected category. It is hidden if the YouTube subscription is in a group.</li>
+          <li>Button to remove from the selected category. It is hidden if the item is not included in the selected category.</li>
+          <li>Edit button. This button allows you to add and remove a channel from the group, as well as change the rating using the window for editing groups and channel rating.</li>
+        </ol>
+      </p>
+      <h3>Group and rating editing window</h3>
+      <p>
+        This window can be called up on the video viewing page, on the channel home page, and in the YouTube subscription manager on the subscription management page.
+        This window is implemented as a modal window. The content of the modal window can be visually divided into three sections.
+        <ol>
+          <li>Top section. It contains the title, the edit mode switch and the YouTube channel rating editor.</li>
+          <li>Middle section. There is a tree in it.</li>
+          <li>Bottom section. This section contains buttons.</li>
+        </ol>
+      </p>
+      <h3>YouTube channel rating editor</h3>
+      <p>
+        The rating editor is displayed only in advanced editing mode. YouTube channel ratings are limited to the interval from 0 to 5 inclusive, with a step of 0.5. A value of zero means no YouTube channel rating.
+
+        Buttons for editing groups and ratings
+        <ol>
+          <li>Select. Depending on the edit mode, the select button can be hidden or displayed. Confirms the selection of the YouTube channel groups and the YouTube channel rating. Visible only in advanced editing mode.</li>
+          <li>Change. Opens the group editor window.</li>
+          <li>Close.</li>
+        </ol>
+      </p>
+      <h3>Advanced editing mode</h3>
+      <p>
+        This mode makes it possible to change the rating of YouTube channels, delete or add several groups for the YouTube channel. In this mode, you need to confirm the selection with a separate action.
+        If the mode is not activated, then you can select with one click, but only one item.
+        Automatically set if the rating is greater than zero, or if more than one item is selected.
+        This mode can be switched using the aforementioned switch in the upper section.
+      </p>
+      <h3>Group editor window</h3>
+      <p>
+        The content of the editor can be visually divided into three sections.
+        <ol>
+          <li>Top section. It contains a title, a back button, and a tooltip.</li>
+          <li>Middle section. It contains a tree with elements.</li>
+          <li>Bottom section. This section contains buttons.</li>
+        </ol>
+      </p>
+      <h3>Group Editor Window Buttons</h3>
+      <ol>
+        <li>Accept. Accepts the change and closes the form.</li>
+        <li>Back.</li>
+        <li>Cancel. Cancels the change</li>
+        <li>Edit. Allows you to change the properties of an element.</li>
+        <li>Delete. Deletes the selected item with prior confirmation.</li>
+        <li>Create. Opens a window with the ability to create a new item.</li>
+      </ol>
+
+      <h3>Group window</h3>
+      <p>
+        The content of the editor can be visually divided into three sections.
+        <ol>
+          <li>Top section. It contains a title and a back button.</li>
+          <li>Middle section. It contains the name field, the name of the parent element and a table with a list of grouped YouTube channels. Items in the table can be deleted.</li>
+          <li>Bottom section. This section contains buttons.</li>
+        </ol>
+      </p>
+      <h3>Group window buttons</h3>
+      <ol>
+        <li>Back.</li>
+        <li>Change the parent. Allows you to change the parent element. Self and child selection is locked.</li>
+        <li>Remove the parent.</li>
+      </ol>
+
+      <h2>Video page</h2>
+      <h3>Embedded buttons</h3>
+      <ol>
+        <li>Edit. Opens a window for editing groups and ratings.</li>
+        <li>Comments. Opens a window with links to comments. Links include the first 100 characters of the comment content text at the time the link is created.</li>
+        <li>Add to channel. Adding a YouTube comment to the channel. Visible if the link to the comment is not added.</li>
+        <li>Remove from the channel. Removing YouTube comments from the channel. Visible if a link to a comment has been added.</li>
+      </ol>
+
+
+
+    </article>
+  </main>
+  <footer class="yp-footer-multiple">
+    <a href="../../../"
+       title="Channel groups and rating"
+       class="yp-footer-link">Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.blogspot.com/2021/08/create-review-for-youtube-channels.html"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.blogspot.com/2021/08/filter-youtube-subscriptions-using.html"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.blogspot.com/2021/08/organize-youtube-subscriptions.html"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+
+    <a href="https://channel-groups-and-rating.tumblr.com/post/660538531896311808/embed"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.tumblr.com/post/660538460889874432/embed"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.tumblr.com/post/660538411236671488/embed"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+    <a href="https://channel-groups-and-rating.tumblr.com/post/660538314786586624/embed"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+
+    <a href="https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg/about"
+       title="How to use Channel groups and rating"
+       class="yp-footer-link">How to use Channel groups and rating</a>
+  </footer>
+</body>
+</html>
