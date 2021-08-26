@@ -20,4 +20,9 @@
     <priority>0.5</priority>
     <changefreq>always</changefreq>
   </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/docs/description/</loc>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+  </url>
 </urlset>
