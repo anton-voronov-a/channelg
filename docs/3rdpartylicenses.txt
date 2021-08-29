@@ -63,7 +63,7 @@ THE SOFTWARE.
 @angular/platform-browser
 MIT
 
-@fontsource/bad-script
+@fontsource/fredoka-one
 MIT
 MIT License
 

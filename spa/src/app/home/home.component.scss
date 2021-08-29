@@ -28,13 +28,14 @@
 }
 
 .yp-homepage-definition {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 22px;
   line-height: 1em;
   margin: 0;
   text-align: center;
-  font-family: Bad Script;
-  color: #f5b3f6;
+  font-family: 'Bad Script';
+  font-family: var(--cg-font-family);
+  color: #fcbdff;
+  color: #ffffffbf;
 }
 
 .yp-homepage-section {
@@ -89,6 +90,21 @@
   flex-direction: column;
   align-items: center;
   margin-top: var(--cg-title-space);
+  /*--cg-font-family: 'Abril Fatface';
+  --cg-font-family: 'Alfa Slab One';
+  --cg-font-family: 'Fredoka One';
+  --cg-font-family: 'Kaushan Script';
+  --cg-font-family: 'Sigmar One';
+  --cg-font-family: 'Changa One';
+  --cg-font-family: 'Lilita One';
+  --cg-font-family: 'Ultra';
+  --cg-font-family: 'Paytone One';
+  --cg-font-family: 'Abril Fatface';
+  --cg-font-family: 'Carter One';
+  --cg-font-family: 'Luckiest Guy';
+  --cg-font-family: 'Candal';
+  --cg-font-family: 'Fugaz One';*/
+  --cg-font-family: 'Fredoka One';
 }
 
 .cg-advice {
@@ -98,10 +114,9 @@
 
 .cg-advice__text {
   margin: calc(var(--cg-title-space) - var(--cg-stores-space));
-  font-size: 22px;
-  color: #ffffffdb;
+  font-size: 32px;
   text-align: center;
-  font-weight: bold;
+  font-family: var(--cg-font-family);
 }
 
 .yp-homepage-stores {
