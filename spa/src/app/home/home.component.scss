@@ -91,13 +91,23 @@
   margin-top: var(--cg-title-space);
 }
 
-.yp-homepage-stores {
+.cg-advice {
   --cg-stores-space: calc(var(--cg-title-space) * 0.75);
+  margin: var(--cg-stores-space);
+}
+
+.cg-advice__text {
+  margin: calc(var(--cg-title-space) - var(--cg-stores-space));
+  font-size: 40px;
+  color: #fdd2ff;
+  text-align: center;
+}
+
+.yp-homepage-stores {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: var(--cg-stores-space);
 }
 
 .yp-homepage-store {
@@ -121,6 +131,3 @@
     font-size: min(7vw, 64px);
   }
 }
-
-
-
