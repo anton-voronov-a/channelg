@@ -132,3 +132,10 @@
     font-size: min(7vw, 64px);
   }
 }
+
+
+.cg-embedded {
+  --cr-embedded-width: min(100vw - 32px, 770px);
+  width: var(--cr-embedded-width);
+  height: calc(var(--cr-embedded-width) * 315 / 560);
+}

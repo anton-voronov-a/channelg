@@ -14,11 +14,6 @@ export class HomeComponent {
     private helpDialogService: HelpDialogService) {
   }
 
-  public embedWidth: number = 420  - 16;
-  public get embedHeight(): number {
-    return this.embedWidth * 315 / 560;
-  };
-
   public share(): void {
     this.bottomSheet.open(ShareComponent);
   }
