@@ -2,21 +2,6 @@
 <div mat-dialog-content class="cg-help-content">
 
   <div class="cg-help-content-inner">
-    <p class="cg-level-1">Configure the instruction for your preferred browser</p>
-    <p>
-      On mobile devices with Android, you have 2 browsers in which you can install this extension.
-    </p>
-    <mat-radio-group [(ngModel)]="selectedBrowser"
-                     class="cg-help-browser-radios">
-      <ng-container *ngFor="let browser of browsers">
-        <mat-radio-button [value]="browser"
-                          class="cg-help-browser-radio">
-          <span class="cg-help-browser-radio__text">{{browser.name}}</span>
-
-        </mat-radio-button>
-        <span class="mat-hint cg-help-browser-hint">{{browser.hint}}</span>
-      </ng-container>
-    </mat-radio-group>
 
     <p class="cg-level-1">Browser installation and configuration</p>
     <p class="cg-level-2" *ngIf="isKiwi">
