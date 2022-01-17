@@ -9,9 +9,6 @@ declare var window: any;
 })
 export class HomeServiceService {
 
-  constructor() {
-    gtag('config', 'AW-10778531434');
-  }
 
   public onChromeStore(url: string) {
     this.send(url, 'AW-10778531434/l32dCMvr5ZADEOqszZMo');
