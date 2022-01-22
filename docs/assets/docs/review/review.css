@@ -1,0 +1,11 @@
+.cg-review-message {
+  padding: 24px;
+  width: 100%;
+  font-size: 16px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.cg-review-submit {
+  display: block;
+  cursor: pointer;
+}
