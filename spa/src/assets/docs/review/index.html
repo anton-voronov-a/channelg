@@ -60,7 +60,10 @@
         const message = document.getElementById('message');
         const eventParams = {
           event_category: 'Review',
-          event_label: message.value
+          event_label: message.value,
+          event_callback: () => {
+            message.value = null;
+          }
         };
         gtag('event', 'submit', eventParams);
         return false;
