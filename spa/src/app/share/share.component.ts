@@ -54,12 +54,6 @@ export class ShareComponent {
   public transformedLinks: ProviderInfoViewModel[];
   private links: ProviderInfo[] = [
     {
-      url: 'https://www.facebook.com/sharer.php?u=[postUrl]',
-      name: 'Facebook',
-      description: 'Web address only',
-      imageUrl: null
-    },
-    {
       url: 'https://twitter.com/share?url=[postUrl]&text=[postTitle]',
       name: 'Twitter',
       description: 'Web address and page title',
