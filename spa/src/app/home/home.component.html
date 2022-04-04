@@ -1,5 +1,16 @@
+<!--<svg xmlns='http://www.w3.org/2000/svg'>
+  <filter id='noiseFilter'>
+    <feTurbulence type='fractalNoise'
+                  baseFrequency='1.44'
+                  numOctaves='6'
+                  stitchTiles='stitch' />
+  </filter>
 
+  <rect width='100%' height='100%' fill="white"  />
+  <rect width='100%' height='100%' filter='url(#noiseFilter) contrast(297%) brightness(461%)' />
+</svg>-->
 <header class="yp-homepage-header yp-content-section">
+  <div class="yp-homepage-header__backgroud"></div>
   <h1 class="yp-homepage-title">
     Channel groups and rating
   </h1>
@@ -10,7 +21,7 @@
     <div class="cg-advice">
       <div class="cg-advice__text">Try it free</div>
       <div class="yp-homepage-stores">
-        <button mat-flat-button
+        <button mat-raised-button
                 (click)="onChromeStore('https://chrome.google.com/webstore/detail/channel-groups-and-rating/hopcbmeplpekjenhhkiceeeaeoeoaona')"
                 class="yp-homepage-store"
                 title="Go to the Chrome store (For Chrome browser)">
@@ -23,12 +34,12 @@
           Edge Add-on
         </button>
         <!--<a mat-flat-button
-           href="https://addons.mozilla.org/en-US/firefox/addon/channel-groups-and-rating/"
-           target="_blank"
-           class="yp-homepage-store"
-           rel="noopener"
-           title="Firefox add-on">Firefox add-on</a>-->
-        <button mat-flat-button
+         href="https://addons.mozilla.org/en-US/firefox/addon/channel-groups-and-rating/"
+         target="_blank"
+         class="yp-homepage-store"
+         rel="noopener"
+         title="Firefox add-on">Firefox add-on</a>-->
+        <button mat-raised-button
                 class="yp-homepage-store"
                 (click)="help()"
                 title="How to use on Android">

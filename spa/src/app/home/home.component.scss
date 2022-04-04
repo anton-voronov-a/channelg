@@ -9,10 +9,49 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--yp-top-background);
+  /*background: var(--yp-top-background);*/
   color: #f5f9fc;
+  position: relative;
 }
 
+.yp-homepage-header__backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  /*filter: contrast(170%) brightness(1500%) invert(100%);
+  background: linear-gradient(83deg, rgba(206,72,171,1), rgba(22,0,47,0.62)), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.44' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(420%) brightness(700%);
+  background: linear-gradient(69deg, rgba(0,50,78,0.71), rgba(199,6,150,0.5)), url("data:image/svg+xml,%3Csvg viewBox='0 0 42 42' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.83' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(430%) brightness(600%);
+  background: linear-gradient(47deg, rgba(17,0,125,0.41), rgba(45,118,158,0.49)), url("data:image/svg+xml,%3Csvg viewBox='0 0 208 208' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.39' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.32' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.32' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,1,70,0.46)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(0,34,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*filter: contrast(1000%) brightness(1500%);
+  background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(63,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  filter: contrast(1000%) brightness(1500%);
+  filter: contrast(297%) brightness(461%);
+  /*background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(63,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(25,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
+  /*--cg-color-1: rgb(0 68 116 / 63%);
+  --cg-color-2: rgb(68 1 78 / 61%);*/
+  /*--cg-color-1: rgb(4 40 65 / 63%);
+  --cg-color-2: rgb(0 34 73 / 61%);*/
+  --cg-color-1: rgb(81 0 124 / 63%);
+  --cg-color-2: rgb(13 78 166 / 61%);
+  background: linear-gradient(90deg, var(--cg-color-1), var(--cg-color-2)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  /*background: linear-gradient(90deg, var(--cg-color-1), var(--cg-color-2)), url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%0A%20%20%3Cfilter%20id%3D%27noiseFilter%27%3E%0A%20%20%20%20%3CfeTurbulence%20type%3D%27fractalNoise%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20baseFrequency%3D%271.44%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20numOctaves%3D%276%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20stitchTiles%3D%27stitch%27%20%2F%3E%0A%20%20%3C%2Ffilter%3E%0A%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23noiseFilter%29%20contrast%28297%25%29%20brightness%28461%25%29%27%20%2F%3E%0A%3C%2Fsvg%3E");*/
+}
 
 .yp-homepage-title {
   font-family: "Kavoon";
@@ -21,7 +60,7 @@
   line-height: 1.2em;
   margin: 0;
   text-align: center;
-  background-image: linear-gradient( 90deg, white, #c5beef);
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%0A%20%20%3Cfilter%20id%3D%27noiseFilter%27%3E%0A%20%20%20%20%3CfeTurbulence%20type%3D%27fractalNoise%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20baseFrequency%3D%271.44%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20numOctaves%3D%276%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20stitchTiles%3D%27stitch%27%20%2F%3E%0A%20%20%3C%2Ffilter%3E%0A%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20fill%3D%22white%22%20%20%2F%3E%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23noiseFilter%29%20contrast%28297%25%29%20brightness%28461%25%29%27%20%2F%3E%0A%3C%2Fsvg%3E");
   color: transparent;
   -webkit-background-clip: text;
   margin-top: var(--cg-title-space);
@@ -36,6 +75,9 @@
   font-family: var(--cg-font-family);
   color: #fcbdff;
   color: #ffffffbf;
+  /*background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%0A%20%20%3Cfilter%20id%3D%27noiseFilter%27%3E%0A%20%20%20%20%3CfeTurbulence%20type%3D%27fractalNoise%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20baseFrequency%3D%271.44%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20numOctaves%3D%276%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20stitchTiles%3D%27stitch%27%20%2F%3E%0A%20%20%3C%2Ffilter%3E%0A%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23noiseFilter%29%20contrast%28297%25%29%20brightness%28461%25%29%27%20%2F%3E%0A%3C%2Fsvg%3E");
+  color: transparent;
+  -webkit-background-clip: text;*/
 }
 
 .yp-homepage-section {
@@ -130,8 +172,8 @@
 .yp-homepage-store {
   margin: calc(var(--cg-title-space) - var(--cg-stores-space));
   min-width: 150px;
-  color: #380371;
-  background: linear-gradient( 90deg, #ffffff 0%, #f6efff 50%, #ceafff) no-repeat;
+  color: #030b71;
+  background: linear-gradient(90deg, #ffffff 0%, #efefff 50%, #94a1ff) no-repeat;
   background-position-x: right;
   -ms-background-size: 200%;
   background-size: 200%;
