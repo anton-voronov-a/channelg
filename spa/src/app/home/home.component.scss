@@ -21,36 +21,11 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  /*filter: contrast(170%) brightness(1500%) invert(100%);
-  background: linear-gradient(83deg, rgba(206,72,171,1), rgba(22,0,47,0.62)), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.44' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(420%) brightness(700%);
-  background: linear-gradient(69deg, rgba(0,50,78,0.71), rgba(199,6,150,0.5)), url("data:image/svg+xml,%3Csvg viewBox='0 0 42 42' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.83' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(430%) brightness(600%);
-  background: linear-gradient(47deg, rgba(17,0,125,0.41), rgba(45,118,158,0.49)), url("data:image/svg+xml,%3Csvg viewBox='0 0 208 208' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.39' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.32' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.32' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,0,0,0)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(28deg, rgba(0,0,255,0.48), rgba(0,1,70,0.46)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(0,34,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*filter: contrast(1000%) brightness(1500%);
-  background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(63,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.03' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  filter: contrast(1000%) brightness(1500%);
-  filter: contrast(297%) brightness(461%);
-  /*background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(63,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*background: linear-gradient(90deg, rgba(0,0,255,0.48), rgba(25,0,255,0.37)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");*/
-  /*--cg-color-1: rgb(0 68 116 / 63%);
-  --cg-color-2: rgb(68 1 78 / 61%);*/
-  /*--cg-color-1: rgb(4 40 65 / 63%);
-  --cg-color-2: rgb(0 34 73 / 61%);*/
-  --cg-color-1: rgb(81 0 124 / 63%);
-  --cg-color-2: rgb(13 78 166 / 61%);
-  background: linear-gradient(90deg, var(--cg-color-1), var(--cg-color-2)), url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.72' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  /*background: linear-gradient(90deg, var(--cg-color-1), var(--cg-color-2)), url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%0A%20%20%3Cfilter%20id%3D%27noiseFilter%27%3E%0A%20%20%20%20%3CfeTurbulence%20type%3D%27fractalNoise%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20baseFrequency%3D%271.44%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20numOctaves%3D%276%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20stitchTiles%3D%27stitch%27%20%2F%3E%0A%20%20%3C%2Ffilter%3E%0A%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23noiseFilter%29%20contrast%28297%25%29%20brightness%28461%25%29%27%20%2F%3E%0A%3C%2Fsvg%3E");*/
+
+  filter: contrast(344%) brightness(65%);
+  --cg-color-1: rgb(0 74 255 / 70%);
+  --cg-color-2: rgb(8 104 154 / 92%);
+  background: linear-gradient(90deg, var(--cg-color-1), var(--cg-color-2)), url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Asvgjs%3D%22http%3A%2F%2Fsvgjs.dev%2Fsvgjs%22%20viewBox%3D%220%200%20700%20700%22%20width%3D%22700%22%20height%3D%22700%22%20id%3D%22nnnoise%22%20opacity%3D%220.98%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22nnnoise-filter%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%20filterUnits%3D%22objectBoundingBox%22%20primitiveUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22linearRGB%22%3E%0A%09%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.056%22%20numOctaves%3D%224%22%20seed%3D%2215%22%20stitchTiles%3D%22stitch%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20result%3D%22turbulence%22%3E%3C%2FfeTurbulence%3E%0A%09%3CfeSpecularLighting%20surfaceScale%3D%224%22%20specularConstant%3D%223%22%20specularExponent%3D%2220%22%20lighting-color%3D%22hsl%28312%2C%20100%25%2C%2041%25%29%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20in%3D%22turbulence%22%20result%3D%22specularLighting%22%3E%0A%20%20%20%20%09%09%3CfeDistantLight%20azimuth%3D%223%22%20elevation%3D%22114%22%3E%3C%2FfeDistantLight%3E%0A%20%20%09%3C%2FfeSpecularLighting%3E%0A%20%20%0A%3C%2Ffilter%3E%3C%2Fdefs%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22hsl%28206%2C%200%25%2C%20100%25%29%22%3E%3C%2Frect%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22hsl%28312%2C%20100%25%2C%2041%25%29%22%20filter%3D%22url%28%23nnnoise-filter%29%22%3E%3C%2Frect%3E%3C%2Fsvg%3E");
 }
 
 .yp-homepage-title {
