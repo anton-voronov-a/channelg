@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>oauth2</title>
+</head>
+<body>
+  <script>
+    (() => {
+      if (location.hash.length) {
+          const redirectUrl = `https://hopcbmeplpekjenhhkiceeeaeoeoaona.chromiumapp.org`;
+          location.href = `${redirectUrl}/${location.hash}`;
+      } else {
+        document.getElementById('text').textContent = `Can not redirect (empty hash).`;
+      }
+    })();
+  </script>
+</body>
+</html>
