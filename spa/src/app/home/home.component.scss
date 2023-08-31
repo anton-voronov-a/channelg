@@ -127,13 +127,6 @@
   margin: var(--cg-stores-space);
 }
 
-.cg-advice__text {
-  margin: calc(var(--cg-title-space) - var(--cg-stores-space));
-  font-size: 32px;
-  text-align: center;
-  font-family: var(--cg-font-family);
-}
-
 .yp-homepage-stores {
   display: flex;
   flex-wrap: wrap;
