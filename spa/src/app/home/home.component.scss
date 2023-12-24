@@ -2,6 +2,7 @@
   overflow-y: auto;
   text-size-adjust: none;
   --cg-title-space: 32px;
+  --cg-primary-color: rgb(43 43 81);
 }
 
 .yp-homepage-header {
@@ -9,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*background: var(--yp-top-background);*/
   color: #f5f9fc;
   position: relative;
 }
@@ -39,24 +39,18 @@
 }
 
 .yp-homepage-definition {
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1em;
   margin: 0;
   text-align: center;
-  font-family: 'Bad Script';
-  font-family: var(--cg-font-family);
-  color: #fcbdff;
-  color: #ffffffbf;
-  /*background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%0A%20%20%3Cfilter%20id%3D%27noiseFilter%27%3E%0A%20%20%20%20%3CfeTurbulence%20type%3D%27fractalNoise%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20baseFrequency%3D%271.44%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20numOctaves%3D%276%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20stitchTiles%3D%27stitch%27%20%2F%3E%0A%20%20%3C%2Ffilter%3E%0A%0A%20%20%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23noiseFilter%29%20contrast%28297%25%29%20brightness%28461%25%29%27%20%2F%3E%0A%3C%2Fsvg%3E");
-  color: transparent;
-  -webkit-background-clip: text;*/
+  color: rgb(255 255 255 / 82%);
 }
 
 .yp-homepage-section {
   padding-bottom: 4em;
   padding-top: 16px;
   flex: 1;
-  color: rgba(0, 0, 0, 0.90);
+  color: var(--cg-primary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,20 +64,18 @@
 }
 
 .cg-list {
-  color: rgba(0, 0, 0, 1);
   padding-inline-start: 16px;
 }
 
 .yp-homepage-capabily-title {
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
 }
 
 .cg-question {
   display: block;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.3em;
-  color: rgb(37 37 37);
+  color: var(--cg-primary-color);
   font-weight: bold;
 }
 
@@ -97,7 +89,8 @@
 }
 
 .yp-homepage-capabily-description {
-  color: rgba(0, 0, 0, 0.60);
+  color: rgb(112 135 161);
+  font-style: italic;
 }
 
 .yp-homepage-header-info {
@@ -105,21 +98,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: var(--cg-title-space);
-  /*--cg-font-family: 'Abril Fatface';
-  --cg-font-family: 'Alfa Slab One';
-  --cg-font-family: 'Fredoka One';
-  --cg-font-family: 'Kaushan Script';
-  --cg-font-family: 'Sigmar One';
-  --cg-font-family: 'Changa One';
-  --cg-font-family: 'Lilita One';
-  --cg-font-family: 'Ultra';
-  --cg-font-family: 'Paytone One';
-  --cg-font-family: 'Abril Fatface';
-  --cg-font-family: 'Carter One';
-  --cg-font-family: 'Luckiest Guy';
-  --cg-font-family: 'Candal';
-  --cg-font-family: 'Fugaz One';*/
-  --cg-font-family: 'Fredoka One';
 }
 
 .cg-advice {
@@ -152,7 +130,7 @@
 
 @media screen and (min-width:600px) {
   .yp-homepage-title {
-    font-size: min(7vw, 64px);
+    font-size: min(7vw, 52px);
   }
 }
 

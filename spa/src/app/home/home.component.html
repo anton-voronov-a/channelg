@@ -45,48 +45,128 @@
           (click)="share()">
     <mat-icon>share</mat-icon>
   </button>
-  <section>
-    <ol class="yp-homepage-section__content cg-list">
-      <li>
-        <h4 class="yp-homepage-capabily-title">Filters videos by rating and groups of YouTube subscriptions.</h4>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Groups YouTube channel subscriptions (Youtube channel grouping, YouTube folders)</h4>
+  <div>
+    <div class="yp-homepage-section__content">
+      <section>
+        <h4 class="yp-homepage-capabily-title">Grouping and filtering</h4>
+        <ol class="cg-list">
+          <li>Filters videos by type (watched, premieres, scheduled, short, etc.), rating, and YouTube subscription or channel groups.</li>
+          <li>Groups channels (allows creating groups for channels).</li>
+          <li>Allows personal rating of YouTube channels.</li>
+          <li>Groups comments by channels.</li>
+        </ol>
+      </section>
+      <section>
+        <h4 class="yp-homepage-capabily-title">Video blocking and filters</h4>
         <span class="yp-homepage-capabily-description">
-          Created groups can be nested in other groups. The name of the groups is visible under the video, so each time you watch the video, you can know in advance which group the channel belongs to. Groups are also used when filtering the videos of your subscriptions, but you can use groups as a hint about the topic of the channel, even if you are not subscribed to the channel. Group information is not shared on YouTube.
+          To use video filters and blocking, you need to open the "Video" dialog. This dialog can be accessed from the YouTube subscriptions section. In the subscriptions section of this extension's panel, click on the "Video" button.
         </span>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Helps to aggregate YouTube subscriptions (channels)</h4>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Groups YouTube comments by channel.</h4>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Supplements the YouTube subscription manager on the management page (organizing YouTube channels).</h4>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Classifies, organizes and categorizes videos.</h4>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title"> Allows you to specify the personal rating of YouTube subscriptions (channels).</h4>
-        <span class="yp-homepage-capabily-description">
-          The rating is displayed below the video, so you can immediately understand if the video is worth your attention or not. The rating is also used when filtering the videos of your subscriptions, but you can use the rating as additional information about the channel, even if you are not subscribed to the channel. Rating information is not transmitted to YouTube, and is stored on your Google Drive.
-        </span>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Binds channels to groups.</h4>
-        <span class="yp-homepage-capabily-description">
-          You can add channels to a group just so you don't lose a channel that you don't want to subscribe to. You can find all the channels that are linked to the group in the form of a list. If you have subscribed to the channel, then you can filter videos based on this group.
-        </span>
-      </li>
-      <li>
-        <h4 class="yp-homepage-capabily-title">Automatically syncs with Google Drive.</h4>
-        <span class="yp-homepage-capabily-description">
-          You can use the created groups and ratings on different devices, for this you need to use the same Google account. The application uses Google Drive, you yourself control the data that the application uses.
-        </span>
-      </li>
-    </ol>
+
+        <ol class="cg-list">
+          <li>Filters videos by keyword in the video title, absence of keyword in the video title, keyword in the full group name (including the group path), and keyword in the channel name.</li>
+          <li>Allows selecting the search method for keyword: regular expression or case-insensitive text part.</li>
+          <li>The extension saves video filters with the option to choose the desired filter.</li>
+          <li>The extension creates playlists based on the filtering results.</li>
+          <li>
+            Provides the ability to block videos based on a filter.
+            <span class="yp-homepage-capabily-description">
+              To block a video, the filter's video blocking feature needs to be enabled in the filter rules.
+            </span>
+            <ol class="cg-list">
+              <li>The extension blocks videos and playlists on the YouTube homepage, in the subscriptions section, on the video search page, in YouTube trends, on the channel page, and on the video viewing page. Blocking is done by blurring the text information and hiding video thumbnails.</li>
+              <li>This extension allows you to instantly see video blocking in action. It displays and blocks videos from the subscriptions section.</li>
+              <li>Allows disabling the blocking without removing it.</li>
+              <li>Allows creating a filter that cancels video blocking.</li>
+              <li>
+                Allows blocking all videos from a channel in just 2 clicks.
+                <span class="yp-homepage-capabily-description">
+                  To do this, add the channel to a group with the option to blur video thumbnails enabled.
+                </span>
+              </li>
+            </ol>
+          </li>
+          <li>Synchronizes all video filters (including blocking) through Google Drive, allowing the same filters to be used on different devices.</li>
+          <li>Exports information about video filters to Excel.</li>
+        </ol>
+      </section>
+      <section>
+        <h4 class="yp-homepage-capabily-title">Audio effects</h4>
+        <ol>
+          <li>
+            Equalizer.
+            <span class="yp-homepage-capabily-description">
+              The equalizer is available on the YouTube video page under the "Equalizer" button next to the channel name.
+
+              <br />
+              The equalizer is useful if you want to improve audio data or compensate for sound output device limitations. It is also used for music.
+            </span>
+            <br />  Available filters:
+            <ol>
+              <li>HP (high-pass filter).</li>
+              <li>HS (high shelf filter).</li>
+              <li>LP (low-pass filter).</li>
+              <li>LS (low shelf filter).</li>
+              <li>Peak filter.</li>
+              <li>Notch filter.</li>
+              <li>BP (band-pass filter).</li>
+              <li>BP (band-stop filter).</li>
+            </ol>
+          </li>
+          <li>Saves sound effects to a list with the possibility of choosing the desired sound effect.</li>
+          <li>Allows assigning an audio effect to all videos or only to a selected group of channels.</li>
+          <li>
+            Normalizes volume.
+            <span class="yp-homepage-capabily-description">
+              Volume normalization is available in the short video section under the "Normalize" button, as well as when using the equalizer in the "Equalizer" dialog.
+              <br />
+              This is useful when there is a loud or quiet speaker in a video. Volume normalization eliminates the need to manually adjust the volume for different videos, as this extension automatically adjusts the volume. Normalization is particularly useful in the short video section, where there are many videos with varying volume levels. In some cases, new sounds can be heard that were not audible before normalization.
+            </span>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h4 class="yp-homepage-capabily-title">Analytics</h4>
+        <ol>
+          <li>
+            Shows information about time spent, broken down by days of the week and time of day.
+            <span class="yp-homepage-capabily-description">
+              With this information, you can understand your viewing habits formed as a result of watching videos, making it easier for you to choose a channel to watch.
+            </span>
+          </li>
+          <li>Displays information about video languages, genres, and the percentage of watched video segments.</li>
+          <li>The extension shows activity information for each channel: time spent, percentage of views, last viewed moment, and number of videos.</li>
+          <li>
+            Allows you to create a playlist with videos from each channel that you have previously watched, with the option to select a date range for the last viewing of these videos.
+            <span class="yp-homepage-capabily-description">
+              This is useful if you want to find out which videos you have not watched completely.
+            </span>
+          </li>
+          <li>Displays information about the channels added to the system. It shows groups, ratings, the number of comments, the number of seconds to skip from the beginning of the video, the moment of addition to the system, and also shows the channel status: whether it is available or not.</li>
+          <li>
+            Adds an indicator for watched video segments.
+            <span class="yp-homepage-capabily-description">
+              This is useful when you want to finish watching the remaining part of a video without starting from the beginning.
+            </span>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h4 class="yp-homepage-capabily-title">Other extension features</h4>
+        <ol>
+          <li>Rotates videos, changes playback speed, replaces sound and video for a specified group.</li>
+          <li>
+            Skips a specified number of seconds in a video for a selected channel.
+            <span class="yp-homepage-capabily-description">
+              This is useful if there is nothing interesting at the beginning of all videos from that channel.
+            </span>
+          </li>
+          <li>Shows high-quality video thumbnails in YouTube subscriptions.</li>
+          <li>Automatically syncs with Google Drive if you sign in using the extension icon.</li>
+          <li>Exports video information, video filters, and analytics to Excel.</li>
+        </ol>
+      </section>
+    </div>
+
     <div class="yp-homepage-section__content">
       <div class="cg-question">
         How to start?
@@ -364,6 +444,5 @@
       2. Change parent. Opens the parent group selection window. Self and child-group selection is locked.
       3. Remove parent.-->
     </div>
-  </section>
-
+  </div>
 </div>
