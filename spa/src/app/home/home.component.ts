@@ -43,7 +43,6 @@ export class HomeComponent implements OnDestroy {
   }
 
   public help(): void {
-
     this.homeService.onMobileDevices()
       .pipe(takeUntil(this.destroySubject))
       .subscribe(() => {

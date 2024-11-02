@@ -9,18 +9,20 @@
     </div>
     <div class="cg-advice">
       <div class="yp-homepage-stores">
-        <button mat-raised-button
+        <a mat-raised-button
+                href="https://chrome.google.com/webstore/detail/channel-groups-and-rating/hopcbmeplpekjenhhkiceeeaeoeoaona"
                 (click)="onChromeStore('https://chrome.google.com/webstore/detail/channel-groups-and-rating/hopcbmeplpekjenhhkiceeeaeoeoaona')"
                 class="yp-homepage-store"
                 title="Go to the Chrome store (For Chrome browser)">
           Chrome extension
-        </button>
-        <button mat-raised-button
-                (click)="onEdgeStore('https://microsoftedge.microsoft.com/addons/detail/channel-groups-and-rating/abcinaijmbdjepphjkbinogpjdiagedp')"
-                class="yp-homepage-store"
-                title="Go to Edge Store (For Edge browser)">
+        </a>
+        <a mat-raised-button
+           href="https://microsoftedge.microsoft.com/addons/detail/channel-groups-and-rating/abcinaijmbdjepphjkbinogpjdiagedp"
+           (click)="onEdgeStore('https://microsoftedge.microsoft.com/addons/detail/channel-groups-and-rating/abcinaijmbdjepphjkbinogpjdiagedp')"
+           class="yp-homepage-store"
+           title="Go to Edge Store (For Edge browser)">
           Edge Add-on
-        </button>
+        </a>
         <!--<a mat-flat-button
          href="https://addons.mozilla.org/en-US/firefox/addon/channel-groups-and-rating/"
          target="_blank"
