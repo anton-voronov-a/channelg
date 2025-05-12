@@ -29,6 +29,7 @@
             "assets": [
               "src/CNAME",
               "src/sitemap.xml",
+              "src/robots.txt",
               "src/assets"
             ],
             "styles": [
