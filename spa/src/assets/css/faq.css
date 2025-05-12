@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-underline-position: under;
+}
+
+h1, h2, h3 {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(255 255 255);
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(0 0 0 / 12%);
+  -o-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+}
+
+.cg-faq-main-docs {
+  display: flex;
+  -o-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.cg-faq-content {
+  gap: 2em;
+  margin-top: 2em;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cg-faq-article {
+  line-height: 1.7em;
+}
+
+.cg-faq-answer-content {
+  word-break: break-word;
+  white-space: pre-wrap;
+}
