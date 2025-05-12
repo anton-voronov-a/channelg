@@ -34,7 +34,20 @@ footer {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  position: static;
+  height: 50px;
+}
+
+footer a {
+  margin: 8px;
+  font-size: 12px;
+  -ms-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+  line-height: 1.5em;
+  padding: 8px 16px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .cg-faq-main-docs {
