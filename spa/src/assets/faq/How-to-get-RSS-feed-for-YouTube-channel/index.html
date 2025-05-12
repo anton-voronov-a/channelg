@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How do I organize my YouTube subscriptions into categories?</title>
+    <title>How to get RSS feed for YouTube channel?</title>
     <link rel="icon" type="image/x-icon" href="https://www.groupsrating.com/assets/icon-128.png">
-    <link rel="stylesheet" href="../../css/faq.css">
+    <link rel="stylesheet" href="/assets/css/faq.css">
     <!--Kaspersky extension warn Google Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8BKSHJXJE"></script>
@@ -58,10 +58,10 @@
               "mainEntity": [
                 {
                   "@type": "Question",
-                  "name": "How do I organize my YouTube subscriptions into categories?",
+                  "name": "How to get RSS feed for YouTube channel?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "When we want to organize files, we want to put them in a folder and a subfolder, so under the organization we will represent the creation of groups for YouTube channels, with the ability to filter by them. Groups can be nested in other groups just like folders.\r\n\r\nIn this case, there are 3 approaches to organizing YouTube subscriptions\r\n1. Using the RSS feed of the YouTube channel.\r\n    Flaw:\r\n        - you can only see the latest 15 items in the YouTube RSS feed, which is very few.\r\n2. Using brand YouTube accounts.\r\n    Flaw:\r\n        - you cannot create a complex hierarchy;\r\n        - you cannot combine several topics;\r\n        - you have to reload the whole page to change the group, which takes time.\r\n3. Using the browser extension \u0022Channel groups and rating\u0022.\r\n    There are no downsides.\r\n    Bonus:\r\n        - you can collect YouTube comments in the channel dossier, which will allow you to know exactly why you subscribed to the channel or unsubscribed from it;\r\n        - you can organize channels by rating, which allows you to limit the list of videos with one button, this is useful when you want to know the most important things and save time on watching."
+                    "text": "The link looks like this www.youtube.com/feeds/videos.xml?channel_id= {id}, where {id} should be replaced with your channel id.\r\n\r\nIn 2021, you can get id using Chrome, for this you need:\r\n1. Go to the YouTube channel page.\r\n2. Refresh the page (press F5).\r\n3. Click with the right mouse button.\r\n4. Select the Inspect item in the context menu\r\n5. Find the element \u003Clink rel = \u0022canonical\u0022 href = \u0022... www.youtube.com/channel/ {{id}\u0022\u003E\r\n{id} is the channel id.\r\n\r\nBut you can get no more than 15 video elements using this RSS feed.\r\n\r\nIf your goal is to get information from different sources, being able to filter and group videos by your tags, then I recommend using the Channel groups and rating extensions for Chrome. It suits this situation better than an RSS aggregator."
                   }
                 }
               ]
@@ -77,84 +77,69 @@
 <div class="cg-faq-content">
     <article class="cg-faq-article">
         <h1>
-            How do I organize my YouTube subscriptions into categories?
+            How to get RSS feed for YouTube channel?
         </h1>
 
-        <span class="cg-faq-answer-content">When we want to organize files, we want to put them in a folder and a subfolder, so under the organization we will represent the creation of groups for YouTube channels, with the ability to filter by them. Groups can be nested in other groups just like folders.
+        <span class="cg-faq-answer-content">The link looks like this www.youtube.com/feeds/videos.xml?channel_id= {id}, where {id} should be replaced with your channel id.
 
-In this case, there are 3 approaches to organizing YouTube subscriptions
-1. Using the RSS feed of the YouTube channel.
-    Flaw:
-        - you can only see the latest 15 items in the YouTube RSS feed, which is very few.
-2. Using brand YouTube accounts.
-    Flaw:
-        - you cannot create a complex hierarchy;
-        - you cannot combine several topics;
-        - you have to reload the whole page to change the group, which takes time.
-3. Using the browser extension "<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>".
-    There are no downsides.
-    Bonus:
-        - you can collect YouTube comments in the channel dossier, which will allow you to know exactly why you subscribed to the channel or unsubscribed from it;
-        - you can organize channels by rating, which allows you to limit the list of videos with one button, this is useful when you want to know the most important things and save time on watching.</span>
+In 2021, you can get id using Chrome, for this you need:
+1. Go to the YouTube channel page.
+2. Refresh the page (press F5).
+3. Click with the right mouse button.
+4. Select the Inspect item in the context menu
+5. Find the element <link rel = "canonical" href = "... www.youtube.com/channel/ {{id}">
+{id} is the channel id.
+
+But you can get no more than 15 video elements using this RSS feed.
+
+If your goal is to get information from different sources, being able to filter and group videos by your tags, then I recommend using the <a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a> extensions for Chrome. It suits this situation better than an RSS aggregator.</span>
     </article>
 
     <section>
         <h2>Related questions</h2>
             <article class="cg-faq-article">
                 <h3>
-                    <a href="../What-are-the-options-for-organizing-YouTube-subscriptions">
-                        What are the options for organizing YouTube subscriptions?
+                    <a href="../Which-sites-collect-news-for-2019">
+                        Which sites collect news for 2019?
                     </a>
                 </h3>
-                <span class="cg-faq-answer-content">There are 3 ways to organize YouTube subscriptions in 2021, but I recommend only one of them.
-By organizing YouTube subscriptions, I mean grouping YouTube channels and filtering videos based on these groups.
-
-Ways I Don't Recommend
-1. Use an RSS feed aggregator and add the YouTube RSS feed to it.
-    Disadvantages:
-        - in the RSS feed of the YouTube channel, there is very little data, there are only 15 latest items.
-2. Create a YouTube brand account for each channel topic.
-    Disadvantages:
-        - accounts are presented in the form of a list, but not a tree, so you cannot create a group for a group of channels;
-        - to move a channel from one group to another, you need to unsubscribe in one account and subscribe in another, this is slow;
-        - each group is on a separate page, to merge videos from several topics, you need to create a new account and subscribe to channels;
-        - changing the group, requires changing the account, which leads to the page reloading, and this requires additional time.
-
-Recommended way
-Use a tool specially created for this purpose - the "<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>" browser extension.
-    Bonuses:
-        - you can group channels, even those to which you are not subscribed;
-        - you can collect YouTube comments, which will allow you to create dossiers of channels, it is useful to know when you want to unsubscribe from the channel;
-        - you can organize channels using the rating, which allows you to limit the list of videos with one button, this is useful when you want to narrow the choice regardless of the topic of the channel;
-        - Groups are now stored on your own Google Drive, so you don't depend on YouTube.</span>
+                <span class="cg-faq-answer-content">You can use YouTube, there are over 37 million channels, you just need to subscribe to them.
+Many people are afraid of the word subscription. We usually pay money to subscribe to magazines or newspapers. On YouTube, subscriptions are free. More precisely, you either watch ads or pay to not watch them on any channel with a premium subscription.
+After you find the necessary channels and subscribe to them, you will have a lot of video material every day.
+If you've come across a science news channel, then you probably don't want to mix this news with finance news.
+You can get confused, so the main thing is to install the "<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>" browser extension to be able to specify topics for news and indicate the quality of news using the rating.
+You can assign a rating to each channel separately. With the help of the rating, you can filter not based on the topic, but simply based on your free time.
+Sometimes you will come across bad news sources and want to collect statistics on everything that this channel puts out. To do this, you can write a comment for each video in which you notice something important. In the future, you can study all the comments for this channel and unsubscribe from it.
+This extension will help you link these comments to the channel. You will have your own profile for each channel. Therefore, when you come across a video with an important moment, you can take a note and not waste your time in the future on this channel.</span>
             </article>
             <article class="cg-faq-article">
                 <h3>
-                    <a href="../Why-did-YouTube-remove-the-subscription-collection-feature">
-                        Why did YouTube remove the subscription collection feature?
+                    <a href="../How-did-you-hear-this-news-and-what-do-you-know-about-it">
+                        How did you hear this news and what do you know about it?
                     </a>
                 </h3>
-                <span class="cg-faq-answer-content">I'm sure the feature was dropped because YouTube wanted to force users to reduce their subscriptions.
+                <span class="cg-faq-answer-content">I watch news on YouTube using the "<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>" extension.
 
-Why?
+Why YouTube?
+1. I know that YouTube has over 37 million channels and over 2 billion users. That is, there is a large selection of sources and a large number of critics.
+2. Text information is easier to fake than video information, which is why I prefer video.
+3. Under each video you can see statistics of views, likes and comments, which gives additional information about this news.
+4. Many videos have the ability to view the transcript, which allows you to search for the desired phrases.
+5. It is possible to leave timecodes for moments, which allows users to justify their conclusions in the comments based on the moments in the video.
+6. Premium subscription allows you to save a lot of time on advertising.
+7. Many experts from interviews with news agencies have their own YouTube channels, on which there is much more information than in the interviews themselves.
 
-1) The usability only gets worse for those who have subscribed to many channels. Most likely, YouTube doesn't make such mistakes unless there are good reasons.
-
-2) Free labor.
-YouTube needs to somehow improve the quality of the content, and I think that the viewers themselves participate in this process.
-YouTube analytics help bloggers improve their performance. By using subscriptions, you are probably giving less analytics to YouTube.
-Why are non-subscription viewers possibly creating more useful data for YouTube?
-Because you may be paying more attention to headlines from unfamiliar channels.
-Let's say you select a video by title and choose more carefully if you see a channel that you are not subscribed to. If you are subscribed, the title of the video plays less of a role in your decision as you trust your choice in the past.
-Let's imagine that you see a header not from your subscriptions and you click on it, and this is analytic data for creators. They learn how to create video titles and images from this data.
-Let's say the title deceived you. You would like not to waste time on this channel in the future. If you watched videos from your subscriptions, then you could unsubscribe, but you are watching a channel not from your subscriptions. You will probably spend a lot more time on deceiving tricks of such channels, creating analytic data for YouTube.
-If you are wasting your time and it doesn’t bring you pleasure, then it’s like a job that you don’t get paid for.
-I believe that the problem is that users are saving time by using subscriptions, but YouTube is getting less data.
-
-How can a user protect himself from imposed work?
-YouTube is just a website, to solve this problem, YouTube users can use the extension.
-I am grouping YouTube subscriptions, perhaps much better than they were back in 2016. This is possible thanks to the Chrome extension <a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>.
-Now I filter videos by groups and ratings, group subscriptions, and write dossiers for channels. The data is stored on Google drive, so it is not under the control of YouTube as it used to be.</span>
+Why "<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>"?
+"<a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a>" is a way to organize hundreds of different sources.
+Functions
+★ Filter videos and subscriptions by rating and groups of YouTube channels.
+★ Group YouTube channel subscriptions, manage YouTube folders.
+★ Group YouTube comments by channel.
+★ Supplement the YouTube subscription manager on the management page (organizing YouTube channels).
+★ Classify, categorize, (in YouTube) organize videos.
+★ Specify the personal rating of subscriptions (channels).
+★ Bind channels to YouTube folders (groups).
+★ Sync with Google Drive.</span>
             </article>
     </section>
 </div>
