@@ -12,9 +12,14 @@ a {
 }
 
 h1, h2, h3 {
+  padding-bottom: 0.5em;
   position: sticky;
   top: 0;
   background-color: white;
+}
+
+.cg-faq-answer-img {
+  width: 100%;
 }
 
 footer {
@@ -61,6 +66,8 @@ footer a {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-bottom: 30px;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .cg-faq-content {
