@@ -86,3 +86,9 @@ footer a {
   word-break: break-word;
   white-space: pre-wrap;
 }
+
+.cg-embedded {
+  --cr-embedded-width: min(100vw - 32px, 1200px);
+  width: var(--cr-embedded-width);
+  height: calc(var(--cr-embedded-width) * 315 / 560);
+}
