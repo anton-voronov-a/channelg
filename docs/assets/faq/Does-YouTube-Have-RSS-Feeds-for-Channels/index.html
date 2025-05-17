@@ -20,55 +20,57 @@
 
             gtag('config', 'G-T8BKSHJXJE');
         </script>
-    
-    <script type="application/ld&#x2B;json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "SoftwareApplication",
-              "name": "Channel groups and rating",
-              "keywords": "YouTube RSS feed, channel RSS, find YouTube channel ID, YouTube subscriptions management, RSS feed limitations, Channel groups extension, YouTube video aggregation",
-              "description": "Learn how to access YouTube RSS feeds using channel IDs, discover limitations of native RSS, and explore the Channel groups extension for better subscription management without restrictions.",
-              "applicationCategory": "Browser Extension",
-              "screenshot": "https://www.groupsrating.com/assets/social/preview-og-1200-630.png",
-              "featureList": [
-                "Grouping and filtering",
-                "Video blocking and filters",
-                "Audio effects",
-                "Analytics"
-              ],
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock",
-                "description": "Free"
-              },
-              "author": {
-                "@type": "Person",
-                "name": "Anton Voronov",
-                "jobTitle": "Full-Stack Developer",
-                "sameAs": ["https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg","https://x.com/groupsrating","https://www.producthunt.com/products/channel-groups-and-rating","https://pinterest.com/channelgroupsandrating"]
-              }
-            },
-            {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Does YouTube Have RSS Feeds for Channels?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, YouTube provides RSS feeds for channels. The feed URL format is www.youtube.com/feeds/videos.xml?channel_id={id}, where {id} is your channel\u0027s unique identifier. To find your channel ID, visit the channel page, refresh it, right-click and select Inspect, then locate the canonical link element containing the channel ID. Note that the RSS feed shows up to 15 recent videos only. To overcome this limit, the Channel groups and rating extension is recommended. This extension functions like an RSS aggregator without restrictions, allowing you to subscribe to channels, organize them into custom groups, and filter videos in your YouTube subscriptions. It offers additional features to simplify content management from multiple sources, works on Android devices, and stores data securely on your Google Drive."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-    </script>
 
+    <script type="application/ld&#x2B;json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "screenshot": "https://www.groupsrating.com/assets/social/preview-og-1200-630.png",
+      "author": {
+        "@type": "Person",
+        "name": "Anton Voronov",
+        "jobTitle": "Full-Stack Developer",
+        "sameAs": [
+          "https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg",
+          "https://x.com/groupsrating",
+          "https://www.producthunt.com/products/channel-groups-and-rating",
+          "https://pinterest.com/channelgroupsandrating"
+        ]
+      },
+      "name": "Channel groups and rating",
+      "description": "Learn how to access YouTube RSS feeds using channel IDs, discover limitations of native RSS, and explore the Channel groups extension for better subscription management without restrictions.",
+      "applicationCategory": "Browser Extension",
+      "keywords": "YouTube RSS feed, channel RSS, find YouTube channel ID, YouTube subscriptions management, RSS feed limitations, Channel groups extension, YouTube video aggregation",
+      "featureList": [
+        "Grouping and filtering",
+        "Video blocking and filters",
+        "Audio effects",
+        "Analytics"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does YouTube Have RSS Feeds for Channels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, YouTube provides RSS feeds for channels. The feed URL format is www.youtube.com/feeds/videos.xml?channel_id={id}, where {id} is your channel\u0027s unique identifier. To find your channel ID, visit the channel page, refresh it, right-click and select Inspect, then locate the canonical link element containing the channel ID. Note that the RSS feed shows up to 15 recent videos only. To overcome this limit, the Channel groups and rating extension is recommended. This extension functions like an RSS aggregator without restrictions, allowing you to subscribe to channels, organize them into custom groups, and filter videos in your YouTube subscriptions. It offers additional features to simplify content management from multiple sources, works on Android devices, and stores data securely on your Google Drive."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
 </head>
 <body>
     <main role="main" class="cg-faq-main-docs">
@@ -79,6 +81,7 @@
         <h1>
             Does YouTube Have RSS Feeds for Channels?
         </h1>
+
 
             <img class="cg-faq-answer-img" src="https://www.groupsrating.com/assets/images/main/01-problem.png" alt="problem" />
 
@@ -103,7 +106,6 @@
 <p>The link looks like this: <strong>www.youtube.com/feeds/videos.xml?channel_id={id}</strong>, where <strong>{id}</strong> should be replaced with your channel id.</p>&#xD;&#xA;&#xD;&#xA;<p>In 2021, you can get the id using Chrome. For this, you need to:</p>&#xD;&#xA;<ol>&#xD;&#xA;  <li>Go to the YouTube channel page.</li>&#xD;&#xA;  <li>Refresh the page (press F5).</li>&#xD;&#xA;  <li>Click with the right mouse button.</li>&#xD;&#xA;  <li>Select the <em>Inspect</em> item in the context menu.</li>&#xD;&#xA;  <li>Find the element <strong>link rel=&quot;canonical&quot; href=&quot;... www.youtube.com/channel/{{id}}</strong> where <strong>{id}</strong> is the channel id.</li>&#xD;&#xA;</ol>&#xD;&#xA;&#xD;&#xA;<p>But you can get no more than 15 video elements using this RSS feed.</p>&#xD;&#xA;&#xD;&#xA;<p>If your goal is to get information from different sources, being able to filter and group videos by your tags, then I recommend using the <strong><a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a></strong> extensions for Chrome. It suits this situation better than an RSS aggregator.</p>&#xD;&#xA;                </article>
         </section>
 </div>
-
 
     </main>
     <footer>

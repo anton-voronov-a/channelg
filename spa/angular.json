@@ -21,14 +21,13 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "../docs",
-            "index": "src/index.html",
+            "index": "src/index-spa.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
               "src/CNAME",
-              "src/sitemap.xml",
               "src/robots.txt",
               "src/assets"
             ],
