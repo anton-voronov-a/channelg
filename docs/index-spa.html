@@ -1,302 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Channel groups and rating</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="title" content="Channel groups and rating"/>
-    <meta name="description" content="Enhance your YouTube experience with this powerful extension featuring channel groups, personalized channel ratings, advanced video filtering and blocking, audio equalizer, volume normalization, detailed analytics, and seamless Google Drive synchronization for multi-device use."/>
-    <meta name="keywords" content="youtube extension, channel groups, video filtering, video blocking, youtube channel rating, youtube subscriptions management, video filters, video playlists, audio equalizer, volume normalization, youtube analytics, video playback control, google drive sync, video thumbnail blur, video keyword filter, video blocking extension, youtube video management, channel grouping extension, video filter export, video analytics export"/>
-    <link rel="canonical" href="https://www.groupsrating.com/"/>
-    <link rel="icon" type="image/x-icon" href="https://www.groupsrating.com/assets/icon-128.png">
-    
-    <style>
-        @font-face {
-            font-family: Kavoon;
-            font-style: normal;
-            font-display: swap;
-            font-weight: 400;
-            src: url("https://www.groupsrating.com/kavoon-latin-400-normal.woff2") format("woff2"), url("https://www.groupsrating.com/kavoon-latin-400-normal.woff") format("woff");
-        }
+  <meta charset="utf-8">
+  <title>Channel groups and rating</title>
+  <meta name="viewport" content="width=420, initial-scale=1, minimum-scale=0.1, maximum-scale=10">
+  <link rel="icon" type="image/x-icon" href="assets/icon-128.png">
+  <meta name="description" content="It has function of YouTube folders for subscriptions, similar to YouTube collections, it can: group YouTube channels, (YouTube) group subscriptions, aggregate news, manage YouTube and (YouTube) group channels.">
 
-    </style>
+  <link rel="canonical" href="https://www.groupsrating.com/"/>
 
-    <link rel="stylesheet" href="/assets/css/landing.css">
-        <!--Kaspersky extension warn Google Analytics -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-T8BKSHJXJE"></script>
-        <script>
-                window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="Channel groups and rating">
+  <meta property="og:description" content="It has function of YouTube folders for subscriptions, similar to YouTube collections, it can: group YouTube channels, (YouTube) group subscriptions, aggregate news, manage YouTube and (YouTube) group channels.">
+  <meta property="og:url" content="https://www.groupsrating.com/">
+  <meta property="og:image" content="https://www.groupsrating.com/assets/social/preview-og-1200-630.png">
+  <meta property="og:site_name" content="Channel groups and rating">
+  <meta property="og:locale" content="en">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image:src" content="https://www.groupsrating.com/assets/social/preview-og-1200-630.png">
 
-            gtag('config', 'G-T8BKSHJXJE');
-            gtag('config', 'AW-10778531434');
-        </script>
+  <link rel="preload" href="roboto-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="kavoon-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="MaterialIcons-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-    <!--pinterest verification-->
-    <meta name="p:domain_verify" content="c3cc10693e4859db6f91cd50691d6340"/>
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      "screenshot": "https://www.groupsrating.com/assets/social/preview-og-1200-630.png",
-      "author": {
-        "@type": "Person",
-        "name": "Anton Voronov",
-        "jobTitle": "Full-Stack Developer",
-        "sameAs": [
-          "https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg",
-          "https://x.com/groupsrating",
-          "https://www.producthunt.com/products/channel-groups-and-rating",
-          "https://pinterest.com/channelgroupsandrating"
-        ]
-      },
-      "name": "Channel groups and rating",
-      "description": "Enhance your YouTube experience with this powerful extension featuring channel groups, personalized channel ratings, advanced video filtering and blocking, audio equalizer, volume normalization, detailed analytics, and seamless Google Drive synchronization for multi-device use.",
-      "applicationCategory": "Browser Extension",
-      "keywords": "youtube extension, channel groups, video filtering, video blocking, youtube channel rating, youtube subscriptions management, video filters, video playlists, audio equalizer, volume normalization, youtube analytics, video playback control, google drive sync, video thumbnail blur, video keyword filter, video blocking extension, youtube video management, channel grouping extension, video filter export, video analytics export",
-      "featureList": [
-        "Grouping and filtering",
-        "Video blocking and filters",
-        "Audio effects",
-        "Analytics"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "price": 0,
-        "priceCurrency": "USD"
-      }
-    }
-  ]
-}
-    </script>
+  <!--pinterest verification-->
+  <meta name="p:domain_verify" content="c3cc10693e4859db6f91cd50691d6340"/>
+  <link rel="stylesheet" href="styles.25be6ac79f52e6364fe7.css">
 <link rel="stylesheet" href="styles.25be6ac79f52e6364fe7.css"></head>
 <body>
-    <header class="yp-homepage-header yp-content-section">
-        
-    <div class="yp-homepage-header__backgroud"></div>
-<h1 class="yp-homepage-title">
-    Channel groups and rating
-</h1>
-<div class="yp-homepage-header-info">
-    <div class="yp-homepage-definition">
-        For YouTube users
-    </div>
-    <div class="cg-advice">
-        <div class="yp-homepage-stores">
-            <a href="https://chromewebstore.google.com/detail/channel-groups-and-rating/hopcbmeplpekjenhhkiceeeaeoeoaona" onclick="gtag('event', 'conversion', { send_to: 'AW-10778531434/l32dCMvr5ZADEOqszZMo'});" class="yp-homepage-store" title="Go to the Chrome store (For Chrome browser)">
-                Chrome extension
-            </a>
-            <a href="https://microsoftedge.microsoft.com/addons/detail/channel-groups-and-rating/abcinaijmbdjepphjkbinogpjdiagedp" onclick="gtag('event', 'conversion', { send_to: 'AW-10778531434/djQKCOae5pADEOqszZMo'});" class="yp-homepage-store" title="Go to Edge Store (For Edge browser)">
-                Edge Add-on
-            </a>
-        </div>
-    </div>
-</div>
-
-
-    </header>
-    <main role="main" class="cg-faq-main-docs yp-homepage-section yp-content-section">
-        
-<div class="yp-homepage-section__content">
-    
-<section>
-    <h4 class="yp-homepage-capabily-title">Grouping and filtering</h4>
-    <ol>
-        <li>Filters videos by type (watched, premieres, scheduled, short, etc.), rating, and YouTube subscription or channel groups.</li>
-        <li>Groups channels (allows creating groups for channels).</li>
-        <li>Allows personal rating of YouTube channels.</li>
-        <li>Groups comments by channels.</li>
-    </ol>
-</section>
-<section>
-    <h4 class="yp-homepage-capabily-title">Video blocking and filters</h4>
-    <span class="yp-homepage-capabily-description">
-        To use video filters and blocking, you need to open the "Video" dialog. This dialog can be accessed from the YouTube subscriptions section. In the subscriptions section of this extension's panel, click on the "Video" button.
-    </span>
-
-    <ol>
-        <li>Filters videos by keyword in the video title, absence of keyword in the video title, keyword in the full group name (including the group path), and keyword in the channel name.</li>
-        <li>Allows selecting the search method for keyword: regular expression or case-insensitive text part.</li>
-        <li>The extension saves video filters with the option to choose the desired filter.</li>
-        <li>The extension creates playlists based on the filtering results.</li>
-        <li>
-            Provides the ability to block videos based on a filter.
-            <span class="yp-homepage-capabily-description">
-                To block a video, the filter's video blocking feature needs to be enabled in the filter rules.
-            </span>
-            <ol>
-                <li>The extension blocks videos and playlists on the YouTube homepage, in the subscriptions section, on the video search page, in YouTube trends, on the channel page, and on the video viewing page. Blocking is done by blurring the text information and hiding video thumbnails.</li>
-                <li>This extension allows you to instantly see video blocking in action. It displays and blocks videos from the subscriptions section.</li>
-                <li>Allows disabling the blocking without removing it.</li>
-                <li>Allows creating a filter that cancels video blocking.</li>
-                <li>
-                    Allows blocking all videos from a channel in just 2 clicks.
-                    <span class="yp-homepage-capabily-description">
-                        To do this, add the channel to a group with the option to blur video thumbnails enabled.
-                    </span>
-                </li>
-            </ol>
-        </li>
-        <li>Synchronizes all video filters (including blocking) through Google Drive, allowing the same filters to be used on different devices.</li>
-        <li>Exports information about video filters to Excel.</li>
-    </ol>
-</section>
-<section>
-    <h4 class="yp-homepage-capabily-title">Audio effects</h4>
-    <ol>
-        <li>
-            Equalizer.
-            <span class="yp-homepage-capabily-description">
-                The equalizer is available on the YouTube video page under the "Equalizer" button next to the channel name.
-
-                <br/>
-                The equalizer is useful if you want to improve audio data or compensate for sound output device limitations. It is also used for music.
-            </span>
-            <br/>  Available filters:
-            <ol>
-                <li>HP (high-pass filter).</li>
-                <li>HS (high shelf filter).</li>
-                <li>LP (low-pass filter).</li>
-                <li>LS (low shelf filter).</li>
-                <li>Peak filter.</li>
-                <li>Notch filter.</li>
-                <li>BP (band-pass filter).</li>
-                <li>BP (band-stop filter).</li>
-            </ol>
-        </li>
-        <li>Saves sound effects to a list with the possibility of choosing the desired sound effect.</li>
-        <li>Allows assigning an audio effect to all videos or only to a selected group of channels.</li>
-        <li>
-            Normalizes volume.
-            <span class="yp-homepage-capabily-description">
-                Volume normalization is available in the short video section under the "Normalize" button, as well as when using the equalizer in the "Equalizer" dialog.
-                <br/>
-                This is useful when there is a loud or quiet speaker in a video. Volume normalization eliminates the need to manually adjust the volume for different videos, as this extension automatically adjusts the volume. Normalization is particularly useful in the short video section, where there are many videos with varying volume levels. In some cases, new sounds can be heard that were not audible before normalization.
-            </span>
-        </li>
-    </ol>
-</section>
-<section>
-    <h4 class="yp-homepage-capabily-title">Analytics</h4>
-    <ol>
-        <li>
-            Shows information about time spent, broken down by days of the week and time of day.
-            <span class="yp-homepage-capabily-description">
-                With this information, you can understand your viewing habits formed as a result of watching videos, making it easier for you to choose a channel to watch.
-            </span>
-        </li>
-        <li>Displays information about video languages, genres, and the percentage of watched video segments.</li>
-        <li>The extension shows activity information for each channel: time spent, percentage of views, last viewed moment, and number of videos.</li>
-        <li>
-            Allows you to create a playlist with videos from each channel that you have previously watched, with the option to select a date range for the last viewing of these videos.
-            <span class="yp-homepage-capabily-description">
-                This is useful if you want to find out which videos you have not watched completely.
-            </span>
-        </li>
-        <li>Displays information about the channels added to the system. It shows groups, ratings, the number of comments, the number of seconds to skip from the beginning of the video, the moment of addition to the system, and also shows the channel status: whether it is available or not.</li>
-        <li>
-            Adds an indicator for watched video segments.
-            <span class="yp-homepage-capabily-description">
-                This is useful when you want to finish watching the remaining part of a video without starting from the beginning.
-            </span>
-        </li>
-    </ol>
-</section>
-<section>
-    <h4 class="yp-homepage-capabily-title">Other extension features</h4>
-    <ol>
-        <li>Rotates videos, changes playback speed, replaces sound and video for a specified group.</li>
-        <li>
-            Skips a specified number of seconds in a video for a selected channel.
-            <span class="yp-homepage-capabily-description">
-                This is useful if there is nothing interesting at the beginning of all videos from that channel.
-            </span>
-        </li>
-        <li>Shows high-quality video thumbnails in YouTube subscriptions.</li>
-        <li>Automatically syncs with Google Drive if you sign in using the extension icon.</li>
-        <li>Exports video information, video filters, and analytics to Excel.</li>
-    </ol>
-</section>
-</div>
-<div class="yp-homepage-section__content">
-    <div class="cg-question">
-    How to start?
-</div>
-<ol>
-    <li>Log into Google using the extension button next to the address bar. This way you can securely save the extension data on your Google drive. All functions, except synchronization with Google Drive, can work without logging into Google.</li>
-    <li>Go to Your YouTube Subscriptions and follow the instructions in the panel that appears to help you group your channels. If you only need blocking videos on YouTube using a filter or sound effects, then you don’t need to configure anything else, everything will work even for anonymous YouTube users.</li>
-</ol>
-
-</div>
-
-    <section class="yp-homepage-section__content">
-        <h2>Related questions</h2>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/What-YouTube-Features-Help-You-Avoid-Wasting-Time-on-Low-Quality-Content/" title="What YouTube Features Help You Avoid Wasting Time on Low-Quality Content?">
-                        What YouTube Features Help You Avoid Wasting Time on Low-Quality Content?
-                    </a>
-                </h3>
-<p>Sometimes you see a video on the main page or among those suggested by a search engine, and you understand that you do not trust this source of information and you do not want to waste your time on any video from it.</p>&#xD;&#xA;&#xD;&#xA;<p>There is an opportunity to <strong>like</strong> the video on YouTube, after which you can find this video in a special playlist. If you put a <strong>dislike</strong>, then you will not see the playlist for the videos you disliked, but you can see the dislike for this video. YouTube also has the ability to create playlists, so you can basically add bad videos to playlists.</p>&#xD;&#xA;&#xD;&#xA;<p>In addition, YouTube has the ability to <strong>subscribe to a channel</strong>, and you will receive videos from this channel in YouTube subscriptions.</p>&#xD;&#xA;&#xD;&#xA;<p>How can these YouTube features help us to avoid watching videos from bad YouTube channels?</p>&#xD;&#xA;&#xD;&#xA;<p>We add only videos to playlists, if new videos from this channel come out, this will not help us much in determining that the channel is not suitable for us, since a new video has not been added to the playlist. But, of course, we can understand that there is no need to watch a video that has already been added to the playlist or which has been disliked.</p>&#xD;&#xA;&#xD;&#xA;<p>Subscribing to a channel gives us the opportunity to create a label about the channel, but the label does not give us enough information. If we use the fact of subscription as information that we do not like the channel, then we will lose the opportunity to use YouTube subscriptions for their intended purpose and everything that we get in the YouTube subscriptions section will be from those YouTube channels that we do not like.</p>&#xD;&#xA;&#xD;&#xA;<p>It can be concluded that it seems that it is simply impossible to mark YouTube channels as bad.</p>&#xD;&#xA;&#xD;&#xA;<p><strong>How do I mark YouTube channels as bad?</strong></p>&#xD;&#xA;&#xD;&#xA;<p>In order for this opportunity to appear, you need to use the <em>Channel groups and rating</em> extension. As in the operating system, we use the trash bin for garbage. Likewise, for bad content, we can use the YouTube folder for trash. We need to create a YouTube folder for spam or junk and place the selected channels there. In other words, we need to group YouTube channels that we consider garbage. The name of this YouTube folder (group) is located on the video viewing page, so by organizing YouTube channels in this way, you can immediately understand what quality this video is.</p>&#xD;&#xA;&#xD;&#xA;<p>Since this feature is so necessary, why didn&#x27;t YouTube implement it?</p>&#xD;&#xA;&#xD;&#xA;<p>In the past decade, YouTube has made a similar feature and now you can even find some mentions of it. But this feature has been removed from YouTube.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/How-Does-the-Channel-Groups-and-Rating-Extension-Save-You-Time-Watching-Videos/" title="How Does the Channel Groups and Rating Extension Save You Time Watching Videos?">
-                        How Does the Channel Groups and Rating Extension Save You Time Watching Videos?
-                    </a>
-                </h3>
-<p>While watching videos, you often gather valuable information that can help <strong>save time</strong>. However, simply liking a clip does not effectively help you decide whether to watch new videos from the same channel.</p>&#xD;&#xA;&#xD;&#xA;<p>The <strong>Channel groups and rating extension</strong> solves this by allowing you to <em>link your impressions to your subscriptions</em> through grouping channels together. This organization helps you quickly find relevant clips and avoid spending time on broadcasts that do not interest you.</p>&#xD;&#xA;&#xD;&#xA;<p>For example, if you subscribe to a channel that uploads many videos daily but only one weekly show interests you, the extension lets you <strong>hide unnecessary videos with one click</strong>. You just add the channel to a YouTube folder and include it in a filter when needed.</p>&#xD;&#xA;&#xD;&#xA;<p>By <strong>ranking and organizing YouTube channels</strong>, this extension streamlines your viewing experience, making it easier and faster to access content that matters to you.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/What-is-the-best-way-to-organize-many-YouTube-subscriptions-using-the-Channel-Groups-and-Rating-extension/" title="What is the best way to organize many YouTube subscriptions using the Channel Groups and Rating extension?">
-                        What is the best way to organize many YouTube subscriptions using the Channel Groups and Rating extension?
-                    </a>
-                </h3>
-<p>If you have many YouTube subscriptions, the <strong>Channel Groups and Rating extension</strong> helps you organize them efficiently by grouping channels into <em>hierarchical categories</em>, similar to folders.</p>&#xD;&#xA;&#xD;&#xA;<p>This extension <strong>extends the capabilities of the native YouTube subscription manager</strong> found on the subscription management page by allowing you to create <strong>channel groups</strong> (YouTube folders) that mimic the old YouTube collections feature.</p>&#xD;&#xA;&#xD;&#xA;<p>Unlike the discontinued collections, the data you create with this extension is <strong>stored on your Google Drive</strong>, giving you full control. You can <em>back up, sync, view, or delete</em> this data just like a regular file on Google Drive.</p>&#xD;&#xA;&#xD;&#xA;<p>Besides organizing channels into folders, the extension also lets you <strong>manage your subscriptions using ratings</strong>, offering an additional way to sort and prioritize your channels.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/Why-Is-a-Channel-Rating-Necessary-in-the-Channel-Groups-and-Rating-Extension/" title="Why Is a Channel Rating Necessary in the Channel Groups and Rating Extension?">
-                        Why Is a Channel Rating Necessary in the Channel Groups and Rating Extension?
-                    </a>
-                </h3>
-<p>With the <strong>Channel Groups and Rating extension</strong>, YouTube folders already allow filtering subscriptions by groups, but this method lacks the flexibility provided by numerical ratings.</p>&#xD;&#xA;&#xD;&#xA;<p>When you filter subscriptions by group, you must <em>manually click</em> the corresponding checkbox in the filter tree. If you want to switch to a different category, you often need to search for another checkbox that might be far from the previous one, which wastes time.</p>&#xD;&#xA;&#xD;&#xA;<p>In contrast, the <strong>channel rating</strong> feature lets you <strong>adjust the minimum rating value in one place</strong>, eliminating the need to search through the group checkboxes.</p>&#xD;&#xA;&#xD;&#xA;<p>For example, you can assign a <strong>higher rating</strong> to channels whose shows you always want to watch, and a <strong>lower rating</strong> to those you can skip. Depending on your available time, you can quickly change the minimum rating value with a single button to see videos that fit your schedule.</p>&#xD;&#xA;&#xD;&#xA;<p>While the YouTube folder name helps you filter by topic, the <strong>channel rating</strong> helps limit the list of videos regardless of topic, making subscription management more efficient and personalized.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/Why-Is-It-Important-to-Link-Comments-to-a-Channel-in-the-Channel-Groups-and-Rating-Extension/" title="Why Is It Important to Link Comments to a Channel in the Channel Groups and Rating Extension?">
-                        Why Is It Important to Link Comments to a Channel in the Channel Groups and Rating Extension?
-                    </a>
-                </h3>
-<p>Now let&#x27;s imagine you recognize something in a video that <strong>characterizes the channel as a whole</strong>. For example, you notice the video contains <em>inappropriate behavior</em>. In this case, you might stop watching and hope you won&#x27;t be offered videos from this channel in the future.</p>&#xD;&#xA;&#xD;&#xA;<p>However, if you encounter another video from the same channel and you <strong>like it</strong>, you may want to manage your subscriptions more efficiently. To save time, you might consider unsubscribing from some YouTube channels, but first, you need to determine if this channel is worth keeping.</p>&#xD;&#xA;&#xD;&#xA;<p>The <strong>Channel Groups and Rating extension</strong> helps by linking comments directly to their respective channels. This feature allows you to track channel behavior over time and make informed decisions about your subscriptions, improving your overall YouTube experience.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/How-to-Evaluate-if-a-YouTube-Channel-Is-Good-or-Bad-Using-Channel-Groups-and-Rating-Extension/" title="How to Evaluate if a YouTube Channel Is Good or Bad Using Channel Groups and Rating Extension">
-                        How to Evaluate if a YouTube Channel Is Good or Bad Using Channel Groups and Rating Extension
-                    </a>
-                </h3>
-<p>This <strong>Channel Groups and Rating extension</strong> enables you to <em>leave written notes</em> about the moments you liked or did not like on any YouTube channel.</p>&#xD;&#xA;<p>With this extension, you can <strong>bind YouTube comments directly to a channel</strong>, creating a kind of <strong>editable channel dossier</strong> made up of the comments you have selected.</p>&#xD;&#xA;<p>These comments do not have to be written by you personally; you can use any relevant comments to build a comprehensive profile of the channel&#x27;s quality and content.</p>&#xD;&#xA;<p>Using this feature helps you <strong>evaluate and rate YouTube channels</strong> more effectively by organizing feedback and impressions in one place, enhancing your channel management and decision-making process.</p>            </article>
-            <article class="cg-faq-article">
-                <h3>
-                    <a href="https://www.groupsrating.com/assets/faq/What-challenges-arise-when-trying-to-receive-high-quality-YouTube-content/" title="What challenges arise when trying to receive high-quality YouTube content?">
-                        What challenges arise when trying to receive high-quality YouTube content?
-                    </a>
-                </h3>
-<p>Have you ever subscribed to just keep the link? Of course, in this case, you start receiving video from this channel. But what if you don&#x27;t want to receive any videos? You can copy the link to the channel instead of subscribing to it, but then you need to save this link somewhere. In such cases, it would be better to simplify the addition of the link.</p>&#xD;&#xA;&#xD;&#xA;<p>Using the <strong>Channel groups and rating extension</strong>, you can <em>group YouTube channels without subscribing</em>, so you can find them easily by the link. The changes will be saved to Google Drive, allowing access from other devices.</p>&#xD;&#xA;&#xD;&#xA;<p>Typically, if you have at least one news subscription, you receive dozens of new videos daily, which can make it harder to find videos on other topics. For more objective information, having several news sources is better, but managing all these subscriptions on YouTube is difficult because you cannot easily remove all news videos when no longer needed.</p>&#xD;&#xA;&#xD;&#xA;<p>This extension acts as a <strong>YouTube subscription filter</strong>, allowing you to <em>group subscriptions and create hierarchies</em>. For example, all news channels can be combined into one group, separating them from other topics. You can then filter subscriptions to exclude this group and focus on other content.</p>&#xD;&#xA;&#xD;&#xA;<p>High-quality content is often difficult to produce, so creators release videos less frequently. For example, science videos may appear less than once a month. You might have hundreds of such sources, each with a low video output frequency compared to news channels.</p>&#xD;&#xA;&#xD;&#xA;<p><strong>What is the problem if you want to receive high-quality content?</strong></p>&#xD;&#xA;&#xD;&#xA;<p>The problem is that you are managing many video sources with infrequent updates. The <strong>Channel groups and rating extension</strong> helps by organizing YouTube channels, supplementing YouTube&#x27;s subscription manager with grouping functions. This allows you to create a structured hierarchy of sources to search and filter by category, topic, and content quality effectively.</p>            </article>
-    </section>
-
-
-    </main>
-    <footer>
-        <a href="https://www.groupsrating.com/assets/docs/privacy-policy/" title="Privacy policy" class="yp-footer-link">Privacy policy</a>
-        <a href="https://www.groupsrating.com/assets/docs/terms/" title="Terms of Service" class="yp-footer-link">Terms of Service</a>
-
-        <a href="https://www.producthunt.com/products/channel-groups-and-rating" title="Product hunt" class="yp-footer-link">Product hunt</a>
-        <a href="https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg" title="YouTube" class="yp-footer-link">YouTube</a>
-        <a href="https://x.com/groupsrating" title="Twitter" class="yp-footer-link">Twitter</a>
-        <a href="https://pinterest.com/channelgroupsandrating" title="Pinterest" class="yp-footer-link">Pinterest</a>
-    </footer>
+  <app-root></app-root>
+  <script src="runtime.0e49e2b53282f40c8925.js" defer=""></script>
+  <script src="polyfills.8c151b8375e767ff858f.js" defer=""></script>
+  <script src="main.01175bdb0ca419be8444.js" defer=""></script>
 <script src="runtime.0e49e2b53282f40c8925.js" defer></script><script src="polyfills.8c151b8375e767ff858f.js" defer></script><script src="main.01175bdb0ca419be8444.js" defer></script></body>
 </html>
