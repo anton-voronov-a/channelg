@@ -5,19 +5,19 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.groupsrating.com/assets/docs/terms/</loc>
-    <lastmod>2025-08-17T02:11:34.3666191Z</lastmod>
+    <lastmod>2025-08-20T22:59:27.6105425Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/docs/privacy-policy/</loc>
-    <lastmod>2025-08-17T02:11:34.3666212Z</lastmod>
+    <lastmod>2025-08-20T22:59:27.6105436Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/docs/description/</loc>
-    <lastmod>2025-08-17T02:11:34.3666212Z</lastmod>
+    <lastmod>2025-08-20T22:59:27.6105437Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -240,6 +240,18 @@
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Challenges-of-Receiving-High-Quality-YouTube-Content-Efficiently/</loc>
     <lastmod>2025-05-24T01:21:46.8622288Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/faq/YouTube-has-removed-the-Trending-tab/</loc>
+    <lastmod>2025-08-20T22:19:57.7811687Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/faq/YouTube-has-removed-the-Trending-tab/</loc>
+    <lastmod>2025-08-20T22:57:30.8702629Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
