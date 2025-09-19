@@ -3,6 +3,10 @@
         return;
     }
 
+    if (document.referrer !== 'https://www.youtube.com/') {
+        return;
+    }
+
     const iframe = document.getElementById('iframe');
 
     const update = () => {
