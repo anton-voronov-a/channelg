@@ -5,19 +5,19 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.groupsrating.com/assets/docs/terms/</loc>
-    <lastmod>2025-09-09T14:44:21.6123473Z</lastmod>
+    <lastmod>2025-09-27T19:48:30.9703666Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/docs/privacy-policy/</loc>
-    <lastmod>2025-09-09T14:44:21.6124379Z</lastmod>
+    <lastmod>2025-09-27T19:48:30.9703679Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/docs/description/</loc>
-    <lastmod>2025-09-09T14:44:21.612438Z</lastmod>
+    <lastmod>2025-09-27T19:48:30.970368Z</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -246,6 +246,12 @@
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Why-YouTube-removed-the-Trending-tab-and-alternatives-with-extension/</loc>
     <lastmod>2025-08-21T01:02:51.5334811Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/faq/Why-Many-YouTube-Videos-Have-Poor-Sound-and-How-to-Fix-It/</loc>
+    <lastmod>2025-09-27T19:48:12.8901595Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
