@@ -6,23 +6,18 @@
 }
 
 html, body {
+    margin: 0;
     height: 100%;
 }
 
 body {
-    margin: 0;
-    font-family: "Helvetica Neue", sans-serif;
+    font: 400 1rem / 1.5rem "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    line-height: 1.5;
 }
 
 a {
     text-underline-position: under;
-}
-
-h2, h3, h4 {
-    padding-bottom: 0.5em;
-    position: sticky;
-    top: 0;
-    background-color: white;
 }
 
 .cg-faq-answer-img {
@@ -50,36 +45,22 @@ footer {
 }
 
     footer a {
-        margin: 8px;
+        margin: 0.5rem;
         font-size: 12px;
         -ms-transition: background-color 0.4s;
         -o-transition: background-color 0.4s;
         -webkit-transition: background-color 0.4s;
         transition: background-color 0.4s;
-        line-height: 1.5em;
-        padding: 8px 16px;
-        -ms-border-radius: 4px;
-        border-radius: 4px;
+        line-height: 1.5;
+        padding: 0.5rem 1rem;
+        -ms-border-radius: 0.25rem;
+        border-radius: 0.25rem;
     }
-
-.cg-faq-article {
-    line-height: 1.7em;
-}
 
 .cg-faq-answer-content {
     word-break: break-word;
     white-space: pre-wrap;
 }
-
-/*.yp-spacer {
-    flex: 1 1 auto;
-}*/
-
-
-/*.cg-app-scroll {
-    overflow: auto;
-}*/
-
 
 main {
     display: flex;
@@ -140,18 +121,22 @@ header a {
 
 .yp-homepage-title {
     font-family: "Kavoon";
-    font-size: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
     font-weight: normal;
-    line-height: 1.2em;
     margin: 0;
     text-align: center;
     color: rgb(255 255 255 / 86%);
     margin-top: var(--cg-title-space);
 }
 
+@media screen and (min-width: 600px) {
+    .yp-homepage-title {
+        font-size: min(7vw, 3.25rem);
+    }
+}
+
 .yp-homepage-definition {
-    font-size: 16px;
-    line-height: 1em;
     margin: 0;
     text-align: center;
     color: rgb(255 255 255 / 82%);
@@ -169,30 +154,11 @@ header a {
 
 .yp-homepage-section__content {
     max-width: 787px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.7em;
-}
-
-.yp-homepage-capabily-title {
-    font-size: 24px;
 }
 
 .cg-question {
     display: block;
-    font-size: 24px;
-    line-height: 1.3em;
     color: var(--cg-primary-color);
-    font-weight: bold;
-}
-
-.yp-homepage-capabily-title {
-    margin: 0.7em 0 0 0;
-}
-
-.yp-homepage-section__content,
-.cg-question {
-    margin: 2em 0 0 0;
 }
 
 .yp-homepage-capabily-description {
@@ -235,15 +201,26 @@ header a {
         background-position-x: left;
     }
 
-@media screen and (min-width:600px) {
-    .yp-homepage-title {
-        font-size: min(7vw, 52px);
-    }
-}
-
-
 .cg-embedded {
     --cr-embedded-width: min(100vw - 32px, 770px);
     width: var(--cr-embedded-width);
     height: calc(var(--cr-embedded-width) * 315 / 560);
+}
+
+h2 {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, #ffffff 1rem, #ffffff73 12rem, #ffffff calc(100% - 1rem));
+    backdrop-filter: blur(10rem) grayscale(0.95);
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+ol {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 1rem;
 }

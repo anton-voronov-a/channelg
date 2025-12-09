@@ -4,24 +4,6 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.groupsrating.com/assets/docs/terms/</loc>
-    <lastmod>2025-09-27T19:48:30.9703666Z</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.groupsrating.com/assets/docs/privacy-policy/</loc>
-    <lastmod>2025-09-27T19:48:30.9703679Z</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.groupsrating.com/assets/docs/description/</loc>
-    <lastmod>2025-09-27T19:48:30.970368Z</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.groupsrating.com/assets/faq/How-do-I-organize-my-YouTube-subscriptions-into-groups-or-categories/</loc>
     <lastmod>2025-05-24T01:21:46.7741468Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -179,37 +161,37 @@
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/How-to-Avoid-Wasting-Time-on-Bad-YouTube-Content-Using-Features/</loc>
-    <lastmod>2025-05-24T01:21:46.8443558Z</lastmod>
+    <lastmod>2025-12-08T04:18:52.6339619Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/How-to-Save-Time-Watching-Videos-Efficiently/</loc>
-    <lastmod>2025-05-24T01:21:46.8459382Z</lastmod>
+    <lastmod>2025-12-08T04:19:05.6597621Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/How-to-Organize-and-Manage-Many-YouTube-Subscriptions-Efficiently/</loc>
-    <lastmod>2025-05-24T01:21:46.8476762Z</lastmod>
+    <lastmod>2025-12-08T04:19:26.8151535Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Why-Is-Channel-Rating-Important-for-Managing-YouTube-Subscriptions/</loc>
-    <lastmod>2025-05-24T01:21:46.8495576Z</lastmod>
+    <lastmod>2025-12-08T04:19:42.49976Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Why-Link-Comments-Directly-to-a-YouTube-Channel/</loc>
-    <lastmod>2025-05-24T01:21:46.8518978Z</lastmod>
+    <lastmod>2025-12-08T04:19:56.7286943Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/How-to-Evaluate-if-a-YouTube-Channel-Is-Good-or-Bad/</loc>
-    <lastmod>2025-05-24T01:21:46.8542061Z</lastmod>
+    <lastmod>2025-12-08T04:20:16.853917Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -239,7 +221,7 @@
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Challenges-of-Receiving-High-Quality-YouTube-Content-Efficiently/</loc>
-    <lastmod>2025-05-24T01:21:46.8622288Z</lastmod>
+    <lastmod>2025-12-08T04:20:35.5267319Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -251,14 +233,32 @@
   </url>
   <url>
     <loc>https://www.groupsrating.com/assets/faq/Why-Many-YouTube-Videos-Have-Poor-Sound-and-How-to-Fix-It/</loc>
-    <lastmod>2025-09-27T19:48:12.8901595Z</lastmod>
+    <lastmod>2025-12-08T04:20:58.2820542Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.groupsrating.com/</loc>
-    <lastmod>2025-05-24T01:21:47.0147943Z</lastmod>
+    <lastmod>2025-12-08T06:21:07.2197003Z</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/docs/privacy-policy/</loc>
+    <lastmod>2025-12-09T03:24:24.6847036Z</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/docs/terms/</loc>
+    <lastmod>2025-12-09T03:24:24.6847044Z</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.groupsrating.com/assets/docs/description/</loc>
+    <lastmod>2025-12-09T03:24:24.6847045Z</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

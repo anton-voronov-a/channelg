@@ -8,8 +8,8 @@
     <meta name="description" content="Learn how to get a YouTube channel RSS feed: find channel ID via Chrome Inspect. 15 video limit. Explore Chrome extensions for advanced filtering." />
     <meta name="keywords" content="YouTube RSS feed, get YouTube channel RSS, YouTube channel ID, find channel ID, RSS feed tutorial, Chrome inspect tool, YouTube video updates, Channel groups extension, video filtering tools, RSS feed limitations." />
     <link rel="canonical" href="https://www.groupsrating.com/assets/faq/How-to-Get-an-RSS-Feed-for-a-YouTube-Channel-Step-by-Step-Guide/" />
-    <link rel="icon" type="image/x-icon" href="https://www.groupsrating.com/assets/icon-128.png">
-    <link rel="stylesheet" href="/assets/css/faq.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon-128.png">
+        <link rel="stylesheet" href="/assets/css/faq.css">
     <script type="application/ld&#x2B;json">
 {
   "@context": "https://schema.org",
@@ -22,8 +22,8 @@
         "name": "Anton Voronov",
         "jobTitle": "Full-Stack Developer",
         "sameAs": [
-          "https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg",
           "https://www.producthunt.com/products/channel-groups-and-rating",
+          "https://www.youtube.com/channel/UCoLeIEJtj3qc7LWDjxAiayg",
           "https://pinterest.com/channelgroupsandrating"
         ]
       },
@@ -71,7 +71,9 @@
         </h1>
 
 
-            <img class="cg-faq-answer-img" src="https://www.groupsrating.com/assets/images/main/01-problem.png" alt="problem" />
+            <img class="cg-faq-answer-img"
+                 src="/assets/images/main/01-problem.png"
+                 alt="problem" />
 
 <p>The link looks like this: <strong>www.youtube.com/feeds/videos.xml?channel_id={id}</strong>, where <strong>{id}</strong> should be replaced with your channel id.</p>&#xD;&#xA;&#xD;&#xA;<p>In 2021, you can get the id using Chrome. For this, you need to:</p>&#xD;&#xA;<ol>&#xD;&#xA;  <li>Go to the YouTube channel page.</li>&#xD;&#xA;  <li>Refresh the page (press F5).</li>&#xD;&#xA;  <li>Click with the right mouse button.</li>&#xD;&#xA;  <li>Select the <em>Inspect</em> item in the context menu.</li>&#xD;&#xA;  <li>Find the element <strong>link rel=&quot;canonical&quot; href=&quot;... www.youtube.com/channel/{{id}}</strong> where <strong>{id}</strong> is the channel id.</li>&#xD;&#xA;</ol>&#xD;&#xA;&#xD;&#xA;<p>But you can get no more than 15 video elements using this RSS feed.</p>&#xD;&#xA;&#xD;&#xA;<p>If your goal is to get information from different sources, being able to filter and group videos by your tags, then I recommend using the <strong><a href="https://www.groupsrating.com/" title="Channel groups and rating">Channel groups and rating</a></strong> extensions for Chrome. It suits this situation better than an RSS aggregator.</p>&#xD;&#xA;    </article>
         <section>
