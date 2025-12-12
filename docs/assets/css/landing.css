@@ -3,6 +3,7 @@
     text-size-adjust: none;
     --cg-title-space: 32px;
     --cg-primary-color: rgb(43 43 81);
+    --yp-content-padding: 0 2rem;
 }
 
 html, body {
@@ -26,9 +27,6 @@ a {
 
 footer {
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    background-color: rgb(255 255 255);
     display: flex;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -41,7 +39,6 @@ footer {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    height: 50px;
 }
 
     footer a {
@@ -64,7 +61,6 @@ footer {
 
 main {
     display: flex;
-    width: 100%;
     flex-direction: column;
 }
 
@@ -121,19 +117,13 @@ header a {
 
 .yp-homepage-title {
     font-family: "Kavoon";
-    font-size: 1rem;
+    font-size: min(6vw, 3.25rem);
     line-height: 1.5;
     font-weight: normal;
     margin: 0;
     text-align: center;
     color: rgb(255 255 255 / 86%);
     margin-top: var(--cg-title-space);
-}
-
-@media screen and (min-width: 600px) {
-    .yp-homepage-title {
-        font-size: min(7vw, 3.25rem);
-    }
 }
 
 .yp-homepage-definition {
@@ -143,8 +133,7 @@ header a {
 }
 
 .yp-homepage-section {
-    padding-bottom: 4em;
-    padding-top: 16px;
+    padding-top: 1rem;
     flex: 1;
     color: var(--cg-primary-color);
     display: flex;
