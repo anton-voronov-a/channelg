@@ -4,5 +4,5 @@ code {
     padding: 0.4em;
     border-radius: 1em;
     color: #ded2ff;
-    display: block;
+    display: inline-block;
 }
