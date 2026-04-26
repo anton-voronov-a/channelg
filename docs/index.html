@@ -342,7 +342,7 @@ Fix poor sound on YouTube videos using the Channel Groups and Rating Chrome exte
 
             if (utmContent === null) {
                 const pathes = (locationInfo.pathname || '').toLowerCase().split('/');
-                const faqPath = pathes[1];
+                const faqPath = pathes[2];
 
                 if (knownFaqPaths.includes(faqPath)) {
                     validSearchParams.set(utmContentKey, faqPath);
