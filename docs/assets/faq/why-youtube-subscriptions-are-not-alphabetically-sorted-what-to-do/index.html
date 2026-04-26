@@ -151,5 +151,19 @@ Fix poor sound on YouTube videos using the <a href="https://www.groupsrating.com
         <a href="https://www.groupsrating.com/"
            title="Channel groups and rating">Channel groups and rating</a>
     </footer>
+    <script>
+        (() => {
+            const locationKey = 'locationKey';
+
+            if (sessionStorage.getItem(locationKey) === null) {
+                const locationInfo = {
+                    pathname: location.pathname,
+                    search: location.search
+                };
+                
+                sessionStorage.setItem(locationKey, JSON.stringify(locationInfo));
+            }
+        })();
+    </script>
 </body>
 </html>
